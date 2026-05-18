@@ -1,32 +1,114 @@
-import { globalIgnores } from 'eslint/config'
-import { defineConfigWithVueTs, vueTsConfigs } from '@vue/eslint-config-typescript'
+import js from '@eslint/js'
+import tseslint from 'typescript-eslint'
+import vueParser from 'vue-eslint-parser'
 import pluginVue from 'eslint-plugin-vue'
-import pluginVitest from '@vitest/eslint-plugin'
-import pluginOxlint from 'eslint-plugin-oxlint'
-import skipFormatting from 'eslint-config-prettier/flat'
+import type { Linter } from 'eslint'
 
-// To allow more languages other than `ts` in `.vue` files, uncomment the following lines:
-// import { configureVueProject } from '@vue/eslint-config-typescript'
-// configureVueProject({ scriptLangs: ['ts', 'tsx'] })
-// More info at https://github.com/vuejs/eslint-config-typescript/#advanced-setup
+export default tseslint.config(
+  // Игнорируемые файлы
+  { ignores: ['dist', 'node_modules', '*.config.js', '*.config.ts'] },
 
-export default defineConfigWithVueTs(
-  {
-    name: 'app/files-to-lint',
-    files: ['**/*.{vue,ts,mts,tsx}'],
-  },
+  // Базовые правила для JavaScript/TypeScript
+  js.configs.recommended,
+  ...tseslint.configs.recommended,
 
-  globalIgnores(['**/dist/**', '**/dist-ssr/**', '**/coverage/**']),
-
-  ...pluginVue.configs['flat/essential'],
-  vueTsConfigs.recommended,
+  // Правила для Vue
+  ...pluginVue.configs['flat/recommended'],
 
   {
-    ...pluginVitest.configs.recommended,
-    files: ['src/**/__tests__/*'],
+    files: ['**/*.vue', '**/*.ts', '**/*.js'],
+    languageOptions: {
+      parser: vueParser,
+      parserOptions: {
+        parser: tseslint.parser,
+        ecmaVersion: 2020,
+        sourceType: 'module',
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+    },
   },
 
-  ...pluginOxlint.buildFromOxlintConfigFile('.oxlintrc.json'),
+  // Кастомные правила
+  {
+    files: ['**/*.vue', '**/*.tsx', '**/*.jsx'],
+    rules: {
+      // ========== ПРАВИЛА ДЛЯ АТРИБУТОВ В ТЕМПЛЕЙТАХ ==========
 
-  skipFormatting,
-)
+      // Максимум атрибутов на одной строке
+      'vue/max-attributes-per-line': ['error', {
+        singleline: { max: 2 },    // в одну строку до 2 атрибутов
+        multiline: { max: 1 },     // если перенос, то по 1 атрибуту
+      }],
+
+      // Первый атрибут должен быть на новой строке
+      'vue/first-attribute-linebreak': ['error', {
+        singleline: 'ignore',
+        multiline: 'below',
+      }],
+
+      // Закрывающий тег на новой строке
+      'vue/html-closing-bracket-newline': ['error', {
+        singleline: 'never',
+        multiline: 'always',
+      }],
+
+      // Отступы в атрибутах
+      'vue/html-indent': ['error', 2],
+
+      // Атрибуты в алфавитном порядке
+      'vue/attributes-order': ['warn', {
+        order: [
+          'DEFINITION',
+          'LIST_RENDERING',
+          'CONDITIONALS',
+          'RENDER_MODIFIERS',
+          'GLOBAL',
+          'UNIQUE',
+          'TWO_WAY_BINDING',
+          'OTHER_DIRECTIVES',
+          'OTHER_ATTR',
+          'EVENTS',
+          'CONTENT',
+        ],
+        alphabetical: false,
+      }],
+
+      // Запрет на пустые строки внутри тегов
+      'vue/no-multi-spaces': 'error',
+
+      // Пробелы внутри скобок
+      'vue/script-indent': ['error', 2, { baseIndent: 1 }],
+
+      // Обязательные точки с запятой
+      'semi': ['error', 'never'],
+
+      // Одинарные кавычки
+      'quotes': ['error', 'single'],
+
+      // Запрет console.log
+      'no-console': ['warn', { allow: ['warn', 'error'] }],
+
+      // Неиспользуемые переменные
+      '@typescript-eslint/no-unused-vars': ['error', {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_'
+      }],
+
+      // Запрет any
+      '@typescript-eslint/no-explicit-any': 'warn',
+
+      // Предпочитаем const
+      'prefer-const': 'error',
+    },
+  },
+
+  // Особые правила для скриптов внутри Vue
+  {
+    files: ['**/*.vue'],
+    rules: {
+      'vue/script-indent': ['error', 2, { baseIndent: 1 }],
+    },
+  }
+) as Linter.Config[]
