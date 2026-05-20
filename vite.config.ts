@@ -4,6 +4,7 @@ import path from 'path'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+import IconsResolver from 'unplugin-icons/resolver'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
@@ -11,7 +12,12 @@ export default defineConfig({
     vue(),
     tailwindcss(),
     AutoImport({
-      resolvers: [ElementPlusResolver()],
+      resolvers: [
+        ElementPlusResolver(),
+        IconsResolver({
+          prefix: 'Icon',
+        }),
+      ],
       imports: ['vue', 'vue-router'],
       dts: 'src/auto-imports.d.ts',
     }),

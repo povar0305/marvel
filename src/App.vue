@@ -1,9 +1,9 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+  import MHeader from './components/m-header/index.vue'
+</script>
 
 <template>
-  <h1>Marvel Heroes</h1>
-  <h2>Marvel Heroes</h2>
-  <h3>Marvel Heroes</h3>
+  <m-header />
 
   <router-view />
 
