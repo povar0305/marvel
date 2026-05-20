@@ -5,21 +5,25 @@
 </script>
 
 <template>
-  <router-view />
+  <div class="app-container">
+    <h1>Marvel Heroes</h1>
 
-  <el-switch v-model="value1" />
+    <router-view />
 
-  <el-button type="primary">
-    Основное действие
-  </el-button>
+    <el-switch v-model="value1" />
 
-  <!-- Должна быть красная кнопка -->
-  <el-button type="danger">
-    Опасное действие
-  </el-button>
+    <el-button type="primary">
+      Основное действие
+    </el-button>
 
-  <!-- Должна быть жёлтая кнопка -->
-  <el-button type="warning">
-    Внимание
-  </el-button>
+    <!-- Должна быть красная кнопка -->
+    <el-button type="danger">
+      Опасное действие
+    </el-button>
+
+    <!-- Должна быть жёлтая кнопка -->
+    <el-button type="warning">
+      Внимание
+    </el-button>
+  </div>
 </template>
