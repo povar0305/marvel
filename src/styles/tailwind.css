@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 @theme {
+  --font-bangers: "Bangers", cursive;
+  --font-inter: "Inter", sans-serif;
+  --font-oswald: "Oswald", sans-serif;
+  
   --color-primary: var(--el-color-primary);
   --color-primary-hover: #2a549e;
   --color-primary-active: #14315c;
