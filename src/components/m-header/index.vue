@@ -13,15 +13,12 @@
   const request = ref((route.query.q as string) || '')
   const onUpdateQuery = (event_request: string) => {
     const newValue = event_request
-    if (newValue) {
-      request.value = newValue
-    }
+    request.value = newValue || ''
   }
   const onUpdateUrl = () => {
     router.push({
-      path: route.path,
+      path: '/',
       query: {
-        ...route.query,
         q: request.value.trim(),
       },
     })
@@ -41,15 +38,19 @@
         <span class="text-large font-600 mr-3 whitespace-nowrap leading-8">
           {{ route.meta?.title }}
         </span>
-
         <el-input
           :model-value="request"
-          :prefix-icon="Search"
-          class="min-w-[80vw] max-w-[80vw]"
-          placeholder="Type something"
+          class="min-w-[75vw] max-w-[75vw]"
+          placeholder="Search heroes by name"
           @keyup.enter="onUpdateUrl"
           @update:model-value="onUpdateQuery"
-        />
+        >
+          <template #suffix>
+            <el-icon class="cursor-pointer el-input__icon" @click="onUpdateUrl">
+              <Search />
+            </el-icon>
+          </template>
+        </el-input>
 
         <el-switch
           :active-action-icon="Moon"
