@@ -1,8 +1,9 @@
-import Index from '../components/m-bottom-menu/index.vue'
 import Hero from '@/pages/hero.vue'
+import Index from '@/pages/index.vue'
 import Favorite from '@/pages/favorite.vue'
 
 import type { RouteRecordRaw } from 'vue-router'
+import { Search, Star } from '@element-plus/icons-vue'
 
 export const MENU: RouteRecordRaw[] = [
   {
@@ -10,7 +11,9 @@ export const MENU: RouteRecordRaw[] = [
     name: 'home',
     component: Index,
     meta: {
-      title: 'Marvel Heroes',
+      title: 'Search',
+      is_in_bottom_menu: true,
+      icon: Search,
     },
   },
   {
@@ -19,6 +22,8 @@ export const MENU: RouteRecordRaw[] = [
     component: Favorite,
     meta: {
       title: 'Favorites',
+      is_in_bottom_menu: true,
+      icon: Star,
     },
   },
   {

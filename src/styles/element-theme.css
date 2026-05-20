@@ -13,3 +13,8 @@
 
   --el-border-color: #d4c9b0 !important;
 }
+
+
+#app {
+  height: 100%;
+}
