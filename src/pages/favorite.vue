@@ -1,5 +1,5 @@
 <script lang="ts" setup></script>
 
-<template>favorite</template>
+<template>favorites</template>
 
 <style scoped></style>
