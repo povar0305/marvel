@@ -14,7 +14,11 @@ export default defineConfig({
       dts: 'src/auto-imports.d.ts',
     }),
     Components({
-      resolvers: [ElementPlusResolver()],
+      resolvers: [
+        ElementPlusResolver({
+          importStyle: 'sass',
+        }),
+      ],
       dts: 'src/components.d.ts',
     }),
   ],
