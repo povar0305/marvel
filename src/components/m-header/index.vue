@@ -26,38 +26,57 @@
 </script>
 
 <template>
-  <el-page-header @back="goBack">
-    <template #icon>
-      <el-icon>
-        <Back />
-      </el-icon>
-    </template>
+  <div class="flex w-full flex-1">
+    <el-page-header @back="goBack">
+      <template #icon>
+        <el-icon>
+          <Back />
+        </el-icon>
+      </template>
 
-    <template #content>
-      <div class="flex w-full gap-4 align-center">
-        <span class="text-large font-600 mr-3 whitespace-nowrap leading-8">
-          {{ route.meta?.title }}
-        </span>
-        <el-input
-          :model-value="request"
-          class="min-w-[75vw] max-w-[75vw]"
-          placeholder="Search heroes by name"
-          @keyup.enter="onUpdateUrl"
-          @update:model-value="onUpdateQuery"
-        >
-          <template #suffix>
-            <el-icon class="cursor-pointer el-input__icon" @click="onUpdateUrl">
-              <Search />
-            </el-icon>
-          </template>
-        </el-input>
+      <template #content>
+        <div class="flex w-full gap-4 align-center">
+          <span class="text-large font-600 mr-3 whitespace-nowrap leading-8">
+            {{ route.meta?.title }}
+          </span>
 
-        <el-switch
-          :active-action-icon="Moon"
-          :inactive-action-icon="Sunny"
-          :model-value="false"
-        />
-      </div>
-    </template>
-  </el-page-header>
+          <el-input
+            :model-value="request"
+            placeholder="Search heroes by name"
+            @keyup.enter="onUpdateUrl"
+            @update:model-value="onUpdateQuery"
+          >
+            <template #suffix>
+              <el-icon class="cursor-pointer el-input__icon" @click="onUpdateUrl">
+                <Search />
+              </el-icon>
+            </template>
+          </el-input>
+
+          <el-switch
+            :active-action-icon="Moon"
+            :inactive-action-icon="Sunny"
+            :model-value="false"
+          />
+        </div>
+      </template>
+    </el-page-header>
+  </div>
 </template>
+
+<style lang="scss">
+.el-page-header {
+  display: flex;
+  flex: 1;
+
+  &__left {
+    margin-right: 0;
+    flex: 1;
+  }
+  &__content,
+  &__header {
+    display: flex;
+    flex: 1;
+  }
+}
+</style>
