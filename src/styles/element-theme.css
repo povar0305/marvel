@@ -13,7 +13,3 @@
 
   --el-border-color: #d4c9b0 !important;
 }
-
-body {
-  background: var(--el-bg-color);
-}

@@ -1,1 +1,63 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: var(--el-color-primary);
+  --color-primary-hover: #2a549e;
+  --color-primary-active: #14315c;
+
+  --color-danger: var(--el-color-danger);
+  --color-danger-hover: #ff5e5e;
+  --color-danger-active: #b11313;
+
+  --color-warning: var(--el-color-warning);
+  --color-warning-hover: #fbc02d;
+  --color-warning-active: #f57f17;
+
+  --color-success: var(--el-color-success);
+  --color-success-hover: #4caf50;
+  --color-success-active: #1b5e20;
+
+  --color-bg: var(--el-bg-color);
+  --color-bg-overlay: var(--el-bg-color-overlay);
+  --color-bg-page: #f5ecd9;
+
+  --color-text-primary: var(--el-text-color-primary);
+  --color-text-regular: var(--el-text-color-regular);
+  --color-text-secondary: var(--el-text-color-secondary);
+  --color-text-placeholder: #b8a88c;
+  --color-text-disabled: #d4c9b0;
+
+  --color-border: var(--el-border-color);
+  --color-border-light: #e8e0d0;
+  --color-border-lighter: #f0ebdf;
+
+  --radius-sm: 6px;
+  --radius-base: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-comic: 8px;
+
+  --shadow-comic: 4px 4px 0px var(--color-border);
+  --shadow-comic-hover: 6px 6px 0px var(--color-border);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    position: relative;
+    padding: 1rem;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Bangers', cursive;
+    font-weight: 400;
+  }
+
+  h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+  }
+}
