@@ -11,9 +11,16 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    ElBacktop: typeof import('element-plus/es')['ElBacktop']
     ElButton: typeof import('element-plus/es')['ElButton']
+    ElIcon: typeof import('element-plus/es')['ElIcon']
+    ElInput: typeof import('element-plus/es')['ElInput']
+    ElPageHeader: typeof import('element-plus/es')['ElPageHeader']
     ElSwitch: typeof import('element-plus/es')['ElSwitch']
+    Header: typeof import('./components/header/index.vue')['default']
     Home: typeof import('./components/home/index.vue')['default']
+    MBottomMenu: typeof import('./components/m-bottom-menu/index.vue')['default']
+    MHeader: typeof import('./components/m-header/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
