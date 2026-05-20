@@ -7,6 +7,8 @@
 <template>
   <div class="app-container">
     <h1>Marvel Heroes</h1>
+    <h2>Marvel Heroes</h2>
+    <h3>Marvel Heroes</h3>
 
     <router-view />
 

@@ -5,6 +5,7 @@ import ElementPlus from 'element-plus'
 import 'normalize.css/normalize.css'
 import 'element-plus/dist/index.css'
 import '@/styles/element-theme.css'
+import '@/styles/typography.css'
 
 import App from './App.vue'
 import router from './router'
