@@ -1,0 +1,15 @@
+:root {
+  --el-color-primary: #1d4289 !important;
+  --el-color-danger: #e23636 !important;
+  --el-color-warning: #f9a825 !important;
+  --el-color-success: #2e7d32 !important;
+
+  --el-bg-color: #fdf8ed !important;
+  --el-bg-color-overlay: #ffffff !important;
+
+  --el-text-color-primary: #1a1a1a !important;
+  --el-text-color-regular: #4a4a4a !important;
+  --el-text-color-secondary: #8a8a8a !important;
+
+  --el-border-color: #d4c9b0 !important;
+}
