@@ -26,7 +26,7 @@
 </script>
 
 <template>
-  <div class="flex w-full flex-1">
+  <div class="flex w-full flex-1 p-3">
     <el-page-header @back="goBack">
       <template #icon>
         <el-icon>
