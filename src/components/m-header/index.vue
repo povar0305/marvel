@@ -2,6 +2,8 @@
   import { ref } from 'vue'
   import { useRoute, useRouter } from 'vue-router'
   import { Back, Moon, Search, Sunny } from '@element-plus/icons-vue'
+  import { useThemeStore } from '@/stores/theme.ts'
+  import { storeToRefs } from 'pinia'
 
   const router = useRouter()
   const route = useRoute()
@@ -12,8 +14,7 @@
 
   const request = ref((route.query.q as string) || '')
   const onUpdateQuery = (event_request: string) => {
-    const newValue = event_request
-    request.value = newValue || ''
+    request.value = event_request || ''
   }
   const onUpdateUrl = () => {
     router.push({
@@ -23,6 +24,10 @@
       },
     })
   }
+
+  const themeStore = useThemeStore()
+
+  const { is_dark } = storeToRefs(themeStore)
 </script>
 
 <template>
@@ -56,7 +61,8 @@
           <el-switch
             :active-action-icon="Moon"
             :inactive-action-icon="Sunny"
-            :model-value="false"
+            :model-value="is_dark"
+            @update:model-value="themeStore.toggleTheme"
           />
         </div>
       </template>
