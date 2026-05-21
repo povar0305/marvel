@@ -27,7 +27,6 @@
 
   const themeStore = useThemeStore()
 
-  // ✅ storeToRefs сохраняет реактивность для ref и computed
   const { is_dark } = storeToRefs(themeStore)
 </script>
 

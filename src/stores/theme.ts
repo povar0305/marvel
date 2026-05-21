@@ -127,7 +127,7 @@ export const useThemeStore = defineStore('theme', () => {
     }
   }
 
-  const init = () => {
+  const initTheme = () => {
     loadSavedTheme()
   }
 
@@ -138,6 +138,6 @@ export const useThemeStore = defineStore('theme', () => {
     is_light,
     setTheme,
     toggleTheme,
-    init,
+    initTheme,
   }
 })
