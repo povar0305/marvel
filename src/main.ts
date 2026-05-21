@@ -5,7 +5,6 @@ import ElementPlus from 'element-plus'
 import '@/styles/tailwind.css'
 import 'normalize.css/normalize.css'
 import 'element-plus/dist/index.css'
-import '@/styles/element-theme.css'
 import '@/styles/typography.css'
 
 import App from './App.vue'
