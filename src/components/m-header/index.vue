@@ -31,7 +31,7 @@
 </script>
 
 <template>
-  <div class="flex w-full flex-1 p-3">
+  <div class="flex flex-1 p-2 sticky shadow-comic bg-bg-overlay top-2 m-2 rounded-sm">
     <el-page-header @back="goBack">
       <template #icon>
         <el-icon>

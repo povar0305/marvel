@@ -1,5 +1,11 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+  import { useHeroesData } from '@/composables/useHeroesData.ts'
 
-<template>index</template>
+  const { current_heroes, getHeroesData } = useHeroesData()
+
+  getHeroesData()
+</script>
+
+<template>{{ current_heroes }}</template>
 
 <style scoped></style>
