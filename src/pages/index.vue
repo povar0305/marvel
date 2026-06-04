@@ -1,9 +1,14 @@
 <script lang="ts" setup>
-  import { useHeroesData } from '@/composables/useHeroesData.ts'
+  import { useHeroesStore } from '@/stores/heroes.ts'
+  import { storeToRefs } from 'pinia'
+  import { onMounted } from 'vue'
 
-  const { current_heroes, getHeroesData } = useHeroesData()
+  const heroesStore = useHeroesStore()
+  const { current_heroes } = storeToRefs(heroesStore)
 
-  getHeroesData()
+  onMounted(() => {
+    heroesStore.getHeroesData()
+  })
 </script>
 
 <template>{{ current_heroes }}</template>
