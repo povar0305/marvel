@@ -6,12 +6,13 @@ const router = createRouter({
   routes: MENU,
 })
 
-router.beforeEach((to, from, next) => {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+router.beforeEach((to, _from, _next) => {
   const defaultTitle = 'Marvel Heroes'
   const pageTitle = (to?.meta?.title as string) || defaultTitle
   document.title = pageTitle ? `${pageTitle} | Marvel Heroes` : defaultTitle
 
-  next()
+  return true
 })
 
 export default router
