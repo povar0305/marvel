@@ -1,9 +1,9 @@
+import About from '@/pages/about.vue'
 import Hero from '@/pages/hero.vue'
 import Index from '@/pages/index.vue'
 import Favorite from '@/pages/favorite.vue'
 
 import type { RouteRecordRaw } from 'vue-router'
-import { Search, Star } from '@element-plus/icons-vue'
 
 export const MENU: RouteRecordRaw[] = [
   {
@@ -13,7 +13,7 @@ export const MENU: RouteRecordRaw[] = [
     meta: {
       title: 'Search',
       is_in_bottom_menu: true,
-      icon: Search,
+      icon: 'iconamoon:search-light',
     },
   },
   {
@@ -23,7 +23,17 @@ export const MENU: RouteRecordRaw[] = [
     meta: {
       title: 'Favorites',
       is_in_bottom_menu: true,
-      icon: Star,
+      icon: 'material-symbols:kid-star-outline',
+    },
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: About,
+    meta: {
+      title: 'About',
+      is_in_bottom_menu: true,
+      icon: 'material-symbols:question-mark',
     },
   },
   {

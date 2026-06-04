@@ -18,6 +18,7 @@ declare module 'vue' {
     ElPageHeader: typeof import('element-plus/es')['ElPageHeader']
     ElSwitch: typeof import('element-plus/es')['ElSwitch']
     MBottomMenu: typeof import('./components/m-bottom-menu/index.vue')['default']
+    MFooter: typeof import('./components/m-footer/index.vue')['default']
     MHeader: typeof import('./components/m-header/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
