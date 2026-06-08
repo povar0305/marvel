@@ -22,6 +22,7 @@ const color_schemes: Record<ThemeMode, ColorScheme> = {
     bgPage: '#f5ecd9',
     textPrimary: '#1a1a1a',
     textRegular: '#4a4a4a',
+    textLight: '#d8d1c0',
     textSecondary: '#8a8a8a',
     textPlaceholder: '#b8a88c',
     textDisabled: '#d4c9b0',
@@ -48,6 +49,7 @@ const color_schemes: Record<ThemeMode, ColorScheme> = {
     bgPage: '#141428',
     textPrimary: '#ffffff',
     textRegular: '#c0c0c0',
+    textLight: '#dadada',
     textSecondary: '#8a8a8a',
     textPlaceholder: '#6a6a8a',
     textDisabled: '#4a4a6a',
@@ -90,6 +92,7 @@ export const useThemeStore = defineStore('theme', () => {
     root.style.setProperty('--el-fill-color-blank', scheme.fillColor)
     root.style.setProperty('--el-bg-color-overlay', scheme.bgOverlay)
     root.style.setProperty('--el-text-color-primary', scheme.textPrimary)
+    root.style.setProperty('--el-text-color-light', scheme.textPrimary)
     root.style.setProperty('--el-text-color-regular', scheme.textRegular)
     root.style.setProperty('--el-text-color-secondary', scheme.textSecondary)
     root.style.setProperty('--el-border-color', scheme.border)
@@ -107,7 +110,9 @@ export const useThemeStore = defineStore('theme', () => {
     root.style.setProperty('--color-bg-page', scheme.bgPage)
     root.style.setProperty('--color-text-primary', scheme.textPrimary)
     root.style.setProperty('--color-text-regular', scheme.textRegular)
+    root.style.setProperty('--color-text-light', scheme.textLight)
     root.style.setProperty('--color-text-secondary', scheme.textSecondary)
+    root.style.setProperty('--color-text-placeholder', scheme.textPlaceholder)
     root.style.setProperty('--color-border', scheme.border)
 
     root.setAttribute('data-theme', theme)
