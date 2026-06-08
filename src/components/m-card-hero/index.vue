@@ -131,7 +131,7 @@
 <template>
   <a
     :class="[
-      'w-full flex flex-col bg-bg! overflow-hidden relative gap-4 shadow-comic transition duration-300 ease-in-out p-3 pl-4 rounded-sm',
+      'w-full flex flex-col bg-bg! overflow-hidden relative gap-5 shadow-comic transition duration-300 ease-in-out p-3 pl-4 rounded-sm',
       hero?.isAlive ? ' hover:bg-bg-overlay! ' : 'grayscale-[0.5] opacity-70 hover:opacity-100',
     ]"
     :href="`hero/${hero.id}`"
@@ -189,11 +189,11 @@
       </p>
     </div>
 
-    <div class="flex gap-3 flex-col">
+    <div class="flex gap-4 flex-col">
       <div
         v-for="(property, index_property) in properties_key"
         :key="index_property"
-        class="flex gap-1 flex-wrap"
+        class="flex gap-3 flex-wrap"
       >
         <span
           v-for="item in property"
@@ -212,22 +212,25 @@
     </div>
 
     <div v-if="hero.powers.length" class="flex items-start gap-1">
-      <Icon class="text-md w-4 text-text-placeholder mt-0.5" icon="material-symbols:auto-awesome" />
+      <Icon
+        class="text-md w-4! min-w-4 text-text-placeholder"
+        icon="material-symbols:auto-awesome"
+      />
 
-      <div class="flex flex-wrap gap-1">
+      <div class="flex flex-wrap gap-2">
         <span
-          v-for="power in hero.powers.slice(0, 3)"
+          v-for="power in hero.powers.slice(0, 2)"
           :key="power"
-          class="inline-flex items-center gap-0.5 text-xs text-text-regular px-1.5 py-0.5"
+          class="text-xs text-text-regular"
         >
           {{ power }}
         </span>
 
         <p
-          v-if="hero.powers.length > 3"
-          class="text-sm text-text-placeholder leading-3 flex items-center ml-1"
+          v-if="hero.powers.length > 2"
+          class="text-xs text-text-placeholder leading-3 flex items-center ml-1"
         >
-          +{{ hero.powers.length - 3 }}
+          +{{ hero.powers.length - 2 }}
         </p>
       </div>
     </div>
