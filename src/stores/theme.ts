@@ -88,7 +88,6 @@ export const useThemeStore = defineStore('theme', () => {
     root.style.setProperty('--el-color-danger', scheme.danger)
     root.style.setProperty('--el-color-warning', scheme.warning)
     root.style.setProperty('--el-rate-text-color', scheme.warning)
-    root.style.setProperty('--color', scheme.border)
     root.style.setProperty('--el-color-success', scheme.success)
     root.style.setProperty('--el-bg-color', scheme.bgOverlay)
     root.style.setProperty('--el-fill-color-blank', scheme.fillColor)

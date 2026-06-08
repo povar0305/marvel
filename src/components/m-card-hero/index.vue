@@ -172,6 +172,9 @@
       <el-rate
         v-tippy="{ content: `Popularity: ${hero.popularity}` }"
         :model-value="Number(hero.popularity) / 2"
+        :style="{
+          '--color': '#d4c9b0',
+        }"
         allow-half
         class="w-fit **:cursor-pointer! text-warning"
         disabled
