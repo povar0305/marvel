@@ -4,19 +4,33 @@
   import { Back, Moon, Search, Sunny } from '@element-plus/icons-vue'
   import { useThemeStore } from '@/stores/theme.ts'
   import { storeToRefs } from 'pinia'
+  import { useHeroesStore } from '@/stores/heroes.ts'
+  import { debounce } from '@/utils/debounce.ts'
 
   const router = useRouter()
   const route = useRoute()
+
+  const heroesStore = useHeroesStore()
 
   const goBack = () => {
     router.back()
   }
 
   const request = ref((route.query.q as string) || '')
+  const handleSearch = debounce(() => {
+    heroesStore.setSearchQuery(request.value)
+  }, 500)
   const onUpdateQuery = (event_request: string) => {
     request.value = event_request || ''
+
+    if (router.currentRoute.value.name === 'home') {
+      onUpdateUrl()
+      handleSearch()
+    }
   }
   const onUpdateUrl = () => {
+    heroesStore.setSearchQuery(request.value.trim() || '')
+
     router.push({
       path: '/',
       query: {
@@ -26,7 +40,6 @@
   }
 
   const themeStore = useThemeStore()
-
   const { is_dark } = storeToRefs(themeStore)
 </script>
 
