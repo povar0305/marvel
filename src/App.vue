@@ -9,7 +9,9 @@
 <template>
   <m-header />
 
-  <router-view />
+  <div class="mt-4 p-4 pb-20">
+    <router-view />
+  </div>
 
   <m-bottom-menu />
 </template>
