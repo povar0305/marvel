@@ -11,6 +11,14 @@
   })
 </script>
 
-<template>{{ current_heroes }}</template>
+<template>
+  <div class="grid gap-3 grid-cols-4 w-full">
+    <m-card-hero
+      v-for="hero in current_heroes"
+      :key="hero.id"
+      :hero="hero"
+    />
+  </div>
+</template>
 
 <style scoped></style>
