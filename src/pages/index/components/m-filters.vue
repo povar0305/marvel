@@ -5,8 +5,16 @@
   import type { statuses as statuses_type } from '@/types/filters.ts'
 
   const heroesStore = useHeroesStore()
-  const { universes, teams, statuses, selected_universe, selected_team, selected_status } =
-    storeToRefs(heroesStore)
+  const {
+    universes,
+    teams,
+    statuses,
+    selected_affiliations,
+    selected_universe,
+    selected_team,
+    selected_status,
+    affiliations,
+  } = storeToRefs(heroesStore)
 
   const filters = computed(() => {
     return [
@@ -23,7 +31,15 @@
         placeholder: 'Teams',
         modelValue: selected_team.value,
         onUpdate: (newValue: string) => {
-          heroesStore.setTeam(newValue as statuses_type | 'all')
+          heroesStore.setTeam(newValue)
+        },
+      },
+      {
+        options: affiliations.value,
+        placeholder: 'Organizations',
+        modelValue: selected_affiliations.value,
+        onUpdate: (newValue: string) => {
+          heroesStore.setAffiliations(newValue)
         },
       },
       {

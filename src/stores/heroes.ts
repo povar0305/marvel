@@ -50,6 +50,11 @@ export const useHeroesStore = defineStore('heroes', () => {
   const selected_team = ref<string>('all')
 
   /**
+   * Выбранная организация для фильтрации
+   */
+  const selected_affiliations = ref<string>('all')
+
+  /**
    * Выбранный статус для фильтрации
    */
   const selected_status = ref<statuses | 'all'>('all')
@@ -139,6 +144,10 @@ export const useHeroesStore = defineStore('heroes', () => {
       result = result.filter((hero) => hero.teams.includes(selected_team.value))
     }
 
+    if (selected_affiliations.value !== 'all') {
+      result = result.filter((hero) => hero.affiliations.includes(selected_affiliations.value))
+    }
+
     if (selected_status.value !== 'all') {
       result = result.filter((hero) => hero.status === selected_status.value)
     }
@@ -213,6 +222,13 @@ export const useHeroesStore = defineStore('heroes', () => {
     return ['all', ...Array.from(set)]
   })
   /**
+   * Уникальные организации для фильтра
+   */
+  const affiliations = computed(() => {
+    const set = new Set(heroes.value.flatMap((h) => h.affiliations))
+    return ['all', ...Array.from(set)]
+  })
+  /**
    * Уникальные статусы для фильтра
    */
   const statuses = computed(() => {
@@ -278,6 +294,14 @@ export const useHeroesStore = defineStore('heroes', () => {
   }
 
   /**
+   * Установка фильтра по организациям
+   */
+  function setAffiliations(affiliations: string) {
+    selected_affiliations.value = affiliations
+    resetPage()
+  }
+
+  /**
    * Установка фильтра по статусу
    */
   function setStatus(status: statuses | 'all') {
@@ -312,8 +336,10 @@ export const useHeroesStore = defineStore('heroes', () => {
   }
 
   return {
+    affiliations,
     current_heroes,
     error_message,
+    filtered_total_pages,
     getHeroById,
     getHeroesData,
     goToPage,
@@ -325,26 +351,27 @@ export const useHeroesStore = defineStore('heroes', () => {
     per_page,
     prevPage,
     refetchHeroes,
+    resetFilters,
     resetPage,
-    setItemsPerPage,
-    total_heroes,
-    total_pages,
     search_query,
-    selected_universe,
-    selected_team,
-    statuses,
+    selected_affiliations,
     selected_status,
+    selected_team,
+    selected_universe,
+    setAffiliations,
+    setItemsPerPage,
+    setSearchQuery,
+    setSortBy,
+    setStatus,
+    setTeam,
+    setUniverse,
     sort_by,
     sort_order,
-    total_filtered,
-    filtered_total_pages,
-    universes,
+    statuses,
     teams,
-    setSearchQuery,
-    setUniverse,
-    setTeam,
-    setStatus,
-    setSortBy,
-    resetFilters,
+    total_filtered,
+    total_heroes,
+    total_pages,
+    universes,
   }
 })

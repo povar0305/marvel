@@ -4,6 +4,7 @@
 export interface HeroFilters {
   team?: string[] // Фильтр по командам
   universe?: string[] // Фильтр по вселенным
+  affiliations?: string[] // Фильтр по организациям
   status?: statuses // Фильтр по статусу
   gender?: genders // Фильтр по полу
   minPowerLevel?: number // Минимальный уровень силы
