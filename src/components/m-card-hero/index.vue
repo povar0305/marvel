@@ -89,11 +89,6 @@
         key: 'comicsCount',
         tippy_text: 'Comics in which the hero appears',
       },
-      {
-        icon: 'material-symbols:star',
-        key: 'popularity',
-        tippy_text: 'Popularity of the hero',
-      },
     ],
   ]
   /**
@@ -126,7 +121,7 @@
       return null
 
     if (Array.isArray(value)) {
-      return value.slice(0, 2).join(', ') + (value.length > 2 ? '...' : '')
+      return value.join(', ')
     }
 
     return value
@@ -173,6 +168,14 @@
       <span class="text-sm text-text-regular">
         {{ hero.realName }}
       </span>
+
+      <el-rate
+        v-tippy="{ content: `Popularity: ${hero.popularity}` }"
+        :model-value="Number(hero.popularity) / 2"
+        allow-half
+        class="w-fit **:cursor-pointer! text-warning"
+        disabled
+      />
     </div>
 
     <div v-if="hero?.quote?.length" class="relative w-full p-3 bg-bg-page rounded-sm">
