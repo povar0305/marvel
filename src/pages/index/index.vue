@@ -2,6 +2,7 @@
   import { useHeroesStore } from '@/stores/heroes.js'
   import { storeToRefs } from 'pinia'
   import { onMounted } from 'vue'
+
   import MFilters from '@/pages/index/components/m-filters.vue'
 
   const heroesStore = useHeroesStore()

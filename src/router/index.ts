@@ -6,7 +6,10 @@ const router = createRouter({
   routes: MENU,
 })
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+/**
+ * Подстановка тайтла страницы
+ */
 router.afterEach((to, _from, _next) => {
   const defaultTitle = 'Marvel Heroes'
   const pageTitle = (to?.meta?.title as string) || defaultTitle

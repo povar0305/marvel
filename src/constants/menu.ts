@@ -5,6 +5,9 @@ import Favorite from '@/pages/favorite.vue'
 
 import type { RouteRecordRaw } from 'vue-router'
 
+/**
+ * Константа для хранения меню
+ */
 export const MENU: RouteRecordRaw[] = [
   {
     path: '/',

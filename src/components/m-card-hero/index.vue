@@ -23,10 +23,10 @@
    * Интерфейс для описания свойств героя, которые выводим скопом
    */
   interface PropertyItem {
-    icon: string
-    key: string
-    parent_key?: 'stats' | 'physical' | 'origin'
-    tippy_text?: string | null | undefined
+    icon: string // наименование иконки
+    key: string // ключ, по которому выводим данные
+    parent_key?: 'stats' | 'physical' | 'origin' // родительский ключ, если вложенный объект
+    tippy_text?: string | null | undefined // текст подсказки при наведении
   }
 
   /**

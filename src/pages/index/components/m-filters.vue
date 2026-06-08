@@ -16,6 +16,9 @@
     affiliations,
   } = storeToRefs(heroesStore)
 
+  /**
+   * Объект с данными по фильтрам
+   */
   const filters = computed(() => {
     return [
       {

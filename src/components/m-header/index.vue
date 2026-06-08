@@ -11,15 +11,26 @@
   const route = useRoute()
 
   const heroesStore = useHeroesStore()
-
+  /**
+   * Функция для возврата на предыдущую страницу
+   */
   const goBack = () => {
     router.back()
   }
-
+  /**
+   * Поисковый запрос
+   */
   const request = ref((route.query.q as string) || '')
+  /**
+   * Функция для установки значения поискового запроса в стор
+   */
   const handleSearch = debounce(() => {
     heroesStore.setSearchQuery(request.value)
   }, 500)
+  /**
+   * Функция для обновления поискового запроса
+   * @param event_request - поисковый запрос
+   */
   const onUpdateQuery = (event_request: string) => {
     request.value = event_request || ''
 
@@ -28,6 +39,9 @@
       handleSearch()
     }
   }
+  /**
+   * Функция для обновления урла страницы
+   */
   const onUpdateUrl = () => {
     heroesStore.setSearchQuery(request.value.trim() || '')
 

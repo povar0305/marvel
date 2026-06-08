@@ -1,3 +1,8 @@
+/**
+ * Дебоунсе функция
+ * @param fn
+ * @param delay
+ */
 export function debounce<Params extends never[], Return>(
   fn: (...args: Params) => Return,
   delay: number,
