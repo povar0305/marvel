@@ -14,7 +14,7 @@
 </script>
 
 <template>
-  <div class="flex flex-col gap-2">
+  <div class="flex flex-col gap-4">
     <m-filters />
 
     <div class="grid gap-3 grid-cols-4 w-full">

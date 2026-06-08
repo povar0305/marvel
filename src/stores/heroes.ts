@@ -60,7 +60,19 @@ export const useHeroesStore = defineStore('heroes', () => {
   const selected_status = ref<statuses | 'all'>('all')
 
   /**
-   * Поле для сортировки
+   * Поля, по которым можно сортировать
+   */
+  const sort_by_list = [
+    { key: 'name', option: 'Name' },
+    { key: 'popularity', option: 'Popularity' },
+    { key: 'age', option: 'Age' },
+    { key: 'gender', option: 'Gender' },
+    { key: 'powerLevel', option: 'Power level' },
+    { key: 'moviesCount', option: 'Moves' },
+    { key: 'comicsCount', option: 'Comics' },
+  ]
+  /**
+   * Выбранное поле сортировки
    */
   const sort_by = ref<'name' | 'powerLevel' | 'popularity' | 'age'>('name')
 
@@ -313,12 +325,14 @@ export const useHeroesStore = defineStore('heroes', () => {
    * Установка сортировки
    */
   function setSortBy(field: sort_by) {
-    if (sort_by.value === field) {
-      sort_order.value = sort_order.value === 'asc' ? 'desc' : 'asc'
-    } else {
-      sort_by.value = field
-      sort_order.value = 'asc'
-    }
+    sort_by.value = field
+    resetPage()
+  }
+  /**
+   * Установка направление сортировки
+   */
+  function setSortOrder(field: sort_order) {
+    sort_order.value = field
     resetPage()
   }
 
@@ -368,8 +382,10 @@ export const useHeroesStore = defineStore('heroes', () => {
     sort_by,
     sort_order,
     statuses,
+    sort_by_list,
     teams,
     total_filtered,
+    setSortOrder,
     total_heroes,
     total_pages,
     universes,

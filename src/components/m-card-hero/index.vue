@@ -47,6 +47,11 @@
     ],
     [
       {
+        icon: 'material-symbols:equalizer',
+        key: 'powerLevel',
+        tippy_text: 'Power level of the hero',
+      },
+      {
         icon: 'material-symbols:speed',
         key: 'speed',
         parent_key: 'stats',

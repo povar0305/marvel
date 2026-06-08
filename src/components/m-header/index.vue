@@ -58,7 +58,9 @@
 </script>
 
 <template>
-  <div class="flex flex-1 p-2 sticky shadow-comic bg-bg-overlay top-2 m-2 mt-0 rounded-sm z-2">
+  <div
+    class="flex flex-1 p-2 sticky shadow-comic bg-bg-overlay top-2 m-2 mt-0 rounded-sm z-[2000000000]"
+  >
     <el-page-header @back="goBack">
       <template #icon>
         <el-icon>
