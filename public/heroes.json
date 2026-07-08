@@ -12,7 +12,7 @@
       "name": "Агент США",
       "realName": "Джон Ф. Уокер",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 42,
       "birthDate": "1979-07-04",
@@ -24,7 +24,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Касберт, Джорджия, США",
@@ -105,7 +105,7 @@
       "name": "Адам Уорлок",
       "realName": "Адам Уорлок",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 15,
       "birthDate": "1967-01-01",
@@ -117,7 +117,7 @@
         "eyeColor": "Золотистые",
         "hairColor": "Блондин"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Создан на Земле (в лаборатории Энклава)",
@@ -189,7 +189,7 @@
       "name": "Алая Ведьма",
       "realName": "Ванда Максимофф",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 32,
       "birthDate": "1989-01-01",
@@ -201,7 +201,7 @@
         "eyeColor": "Голубые / Красные (при магии)",
         "hairColor": "Коричневые"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Гора Вундагор, Трансия",
@@ -275,7 +275,7 @@
       "name": "Альтрон",
       "realName": "Альтрон",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Уничтожен Виженом и Мстителями (многократно)",
       "age": 10,
       "birthDate": "2010-01-01",
@@ -287,7 +287,7 @@
         "eyeColor": "Красные",
         "hairColor": "Нет"
       },
-      "gender": "other",
+      "gender": "Неизвестно",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Создан на Земле (Лаборатория Мстителей)",
@@ -359,7 +359,7 @@
       "name": "Зимний солдат",
       "realName": "Джеймс Бьюкенен 'Баки' Барнс",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 106,
       "birthDate": "1917-03-10",
@@ -371,7 +371,7 @@
         "eyeColor": "Карие",
         "hairColor": "Тёмно-каштановые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Шелбивилл, Индиана, США",
@@ -448,7 +448,7 @@
       "name": "Барон Земо",
       "realName": "Гельмут Земо",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1975-01-01",
@@ -460,7 +460,7 @@
         "eyeColor": "Карие",
         "hairColor": "Тёмные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Лейпциг, Германия",
@@ -527,7 +527,7 @@
       "name": "Бета Рэй Билл",
       "realName": "Бета Рэй Билл",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1980-01-01",
@@ -539,7 +539,7 @@
         "eyeColor": "Красные",
         "hairColor": "Нет"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Планета Кронар",
@@ -595,7 +595,7 @@
       "name": "Блэйд",
       "realName": "Эрик Брукс",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 50,
       "birthDate": "1973-01-01",
@@ -607,7 +607,7 @@
         "eyeColor": "Карие",
         "hairColor": "Черные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -668,7 +668,7 @@
       "name": "Большой",
       "realName": "Билл Фостер",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Убит Кло (Голиаф)",
       "age": 45,
       "birthDate": "1978-01-01",
@@ -680,7 +680,7 @@
         "eyeColor": "Карие",
         "hairColor": "Черные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Лос-Анджелес, Калифорния",
@@ -736,7 +736,7 @@
       "name": "Бык",
       "realName": "Лестер",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 40,
       "birthDate": "1984-01-01",
@@ -748,7 +748,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Неизвестно",
@@ -805,7 +805,7 @@
       "name": "Валькирия",
       "realName": "Брунгильда",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 800,
       "birthDate": "1200-01-01",
@@ -817,7 +817,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Соломенно-желтые"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Асгард",
@@ -875,7 +875,7 @@
       "name": "Веном",
       "realName": "Эдди Брок",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 38,
       "birthDate": "1985-01-01",
@@ -887,7 +887,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Сан-Франциско, Калифорния, США",
@@ -959,7 +959,7 @@
       "name": "Вижн",
       "realName": "Вижн",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 10,
       "birthDate": "2015-01-01",
@@ -971,7 +971,7 @@
         "eyeColor": "Зеленые",
         "hairColor": "Пурпурный"
       },
-      "gender": "other",
+      "gender": "Неизвестно",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Создан на Земле (Лаборатории Альтрона)",
@@ -1039,7 +1039,7 @@
       "name": "Вонг",
       "realName": "Вонг",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1980-01-01",
@@ -1051,7 +1051,7 @@
         "eyeColor": "Карие",
         "hairColor": "Чёрные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Камар-Тадж, Тибет",
@@ -1113,7 +1113,7 @@
       "name": "Гамора",
       "realName": "Гамора Зен Уобери Бенитан",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Пожертвована Таносом ради Камня души",
       "age": 30,
       "birthDate": "1993-01-01",
@@ -1125,7 +1125,7 @@
         "eyeColor": "Золотистые",
         "hairColor": "Чёрные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Планета Зен-Вобери",
@@ -1189,7 +1189,7 @@
       "name": "Красный Халк",
       "realName": "Таддеус Росс",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 65,
       "birthDate": "1958-01-01",
@@ -1201,7 +1201,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Вашингтон, США",
@@ -1257,7 +1257,7 @@
       "name": "Горгон",
       "realName": "Горгон Петрагон",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 40,
       "birthDate": "1983-01-01",
@@ -1269,7 +1269,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Чёрные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Аттилан (Луна)",
@@ -1325,7 +1325,7 @@
       "name": "Грандмастер",
       "realName": "Эн Двий Гаст",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 10000,
       "birthDate": "8000-01-01",
@@ -1337,7 +1337,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Неизвестно",
@@ -1393,7 +1393,7 @@
       "name": "Грут",
       "realName": "Грут",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 20,
       "birthDate": "2000-01-01",
@@ -1405,7 +1405,7 @@
         "eyeColor": "Коричневые",
         "hairColor": "Нет"
       },
-      "gender": "other",
+      "gender": "Неизвестно",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Планета X",
@@ -1467,7 +1467,7 @@
       "name": "Жёлтый шершень",
       "realName": "Даррен Кросс",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Уменьшился до субатомного уровня и исчез",
       "age": 45,
       "birthDate": "1975-01-01",
@@ -1479,7 +1479,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "США",
@@ -1535,7 +1535,7 @@
       "name": "Дракс Разрушитель",
       "realName": "Артур Дуглас / Дракс",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1978-01-01",
@@ -1547,7 +1547,7 @@
         "eyeColor": "Красные",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Создан на Земле, позже перерождён",
@@ -1619,7 +1619,7 @@
       "name": "Древняя",
       "realName": "Неизвестно (в фильме Кецилия)",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Убита Каэцилием",
       "age": 500,
       "birthDate": "1500-01-01",
@@ -1631,7 +1631,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Седые"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Камар-Тадж, Тибет",
@@ -1696,7 +1696,7 @@
       "name": "Енот Ракета",
       "realName": "Ракета (89P13)",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 15,
       "birthDate": "2009-01-01",
@@ -1708,7 +1708,7 @@
         "eyeColor": "Карие",
         "hairColor": "Коричневый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Космический аванпост Halfworld",
@@ -1775,7 +1775,7 @@
       "name": "Железный Кулак",
       "realName": "Дэнни Рэнд",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 33,
       "birthDate": "1990-01-01",
@@ -1787,7 +1787,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -1846,7 +1846,7 @@
       "name": "Женщина-Халк",
       "realName": "Дженнифер Уолтерс",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -1858,7 +1858,7 @@
         "eyeColor": "Зеленые",
         "hairColor": "Зеленый / Каштановые"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Лос-Анджелес, Калифорния, США",
@@ -1917,7 +1917,7 @@
       "name": "Зелёный гоблин",
       "realName": "Норман Озборн",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 55,
       "birthDate": "1968-01-01",
@@ -1929,7 +1929,7 @@
         "eyeColor": "Карие",
         "hairColor": "Тёмные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -1988,7 +1988,7 @@
       "name": "Звёздный Лорд",
       "realName": "Питер Квилл",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 40,
       "birthDate": "1983-01-01",
@@ -2000,7 +2000,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Сент-Чарльз, Миссури, США",
@@ -2067,7 +2067,7 @@
       "name": "Зури",
       "realName": "Зури",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Убит Киллмонгером",
       "age": 60,
       "birthDate": "1960-01-01",
@@ -2079,7 +2079,7 @@
         "eyeColor": "Карие",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Ваканда",
@@ -2138,7 +2138,7 @@
       "name": "Икарис",
       "realName": "Икарис",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 5000,
       "birthDate": "3000-01-01",
@@ -2150,7 +2150,7 @@
         "eyeColor": "Золотистые",
         "hairColor": "Тёмные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Космос (Олимпия)",
@@ -2215,7 +2215,7 @@
       "name": "Йонду Удонта",
       "realName": "Йонду Удонта",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Пожертвовал собой, спасая Питера Квилла",
       "age": 60,
       "birthDate": "1960-01-01",
@@ -2227,7 +2227,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Планета Сентинор",
@@ -2286,7 +2286,7 @@
       "name": "Капитан Америка",
       "realName": "Стив Роджерс",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 105,
       "birthDate": "1918-07-04",
@@ -2298,7 +2298,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Белокурые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Бруклин, Нью-Йорк",
@@ -2365,7 +2365,7 @@
       "name": "Капитан Марвел",
       "realName": "Кэрол Дэнверс",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -2377,7 +2377,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Блондинка"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Бостон, Массачусетс, США",
@@ -2436,7 +2436,7 @@
       "name": "Каратель",
       "realName": "Фрэнк Касл",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1978-01-01",
@@ -2448,7 +2448,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Черные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -2507,7 +2507,7 @@
       "name": "Карнаж",
       "realName": "Клетус Кэседи",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1989-01-01",
@@ -2519,7 +2519,7 @@
         "eyeColor": "Красные",
         "hairColor": "Рыжий"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -2578,7 +2578,7 @@
       "name": "Киллмонгер",
       "realName": "Эрик Стивенс",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Погиб в бою с Т'Чаллой",
       "age": 35,
       "birthDate": "1988-01-01",
@@ -2590,7 +2590,7 @@
         "eyeColor": "Карие",
         "hairColor": "Черные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Окленд, Калифорния, США",
@@ -2649,7 +2649,7 @@
       "name": "Кингпин",
       "realName": "Уилсон Фиск",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 50,
       "birthDate": "1974-01-01",
@@ -2661,7 +2661,7 @@
         "eyeColor": "Карие",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -2720,7 +2720,7 @@
       "name": "Коллекционер",
       "realName": "Танелир Тиван",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 10000,
       "birthDate": "8000-01-01",
@@ -2732,7 +2732,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Неизвестно",
@@ -2791,7 +2791,7 @@
       "name": "Красный Череп",
       "realName": "Иоганн Шмидт",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 100,
       "birthDate": "1920-01-01",
@@ -2803,7 +2803,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Германия",
@@ -2862,7 +2862,7 @@
       "name": "Кристалл",
       "realName": "Кристалл Амакуин",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 28,
       "birthDate": "1995-01-01",
@@ -2874,7 +2874,7 @@
         "eyeColor": "Карие",
         "hairColor": "Чёрные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Аттилан (Луна)",
@@ -2933,7 +2933,7 @@
       "name": "Кроссбоунс",
       "realName": "Брок Рамлоу",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1978-01-01",
@@ -2945,7 +2945,7 @@
         "eyeColor": "Карие",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Неизвестно",
@@ -3004,7 +3004,7 @@
       "name": "Локи",
       "realName": "Локи Лафейсон",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 1050,
       "birthDate": "0970-01-01",
@@ -3016,7 +3016,7 @@
         "eyeColor": "Зеленые",
         "hairColor": "Черные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Йотунхейм",
@@ -3084,7 +3084,7 @@
       "name": "Лунный рыцарь",
       "realName": "Марк Спектор",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 40,
       "birthDate": "1983-01-01",
@@ -3096,7 +3096,7 @@
         "eyeColor": "Карие",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Чикаго, Иллинойс, США",
@@ -3155,7 +3155,7 @@
       "name": "Люк Кейдж",
       "realName": "Карл Лукас",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 38,
       "birthDate": "1985-01-01",
@@ -3167,7 +3167,7 @@
         "eyeColor": "Карие",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -3226,7 +3226,7 @@
       "name": "Магнето",
       "realName": "Эрик Леншерр (Макс Айзенхардт)",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 90,
       "birthDate": "1933-01-01",
@@ -3238,7 +3238,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Германия",
@@ -3305,7 +3305,7 @@
       "name": "Мандарин",
       "realName": "Тэм Боран / Чэн Ли (разное)",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 70,
       "birthDate": "1953-01-01",
@@ -3317,7 +3317,7 @@
         "eyeColor": "Карие",
         "hairColor": "Черные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Китай",
@@ -3376,7 +3376,7 @@
       "name": "Мантис",
       "realName": "Мантис",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 28,
       "birthDate": "1995-01-01",
@@ -3388,7 +3388,7 @@
         "eyeColor": "Черные",
         "hairColor": "Черные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Неизвестная планета",
@@ -3452,7 +3452,7 @@
       "name": "Мария Хилл",
       "realName": "Мария Хилл",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 40,
       "birthDate": "1983-01-01",
@@ -3464,7 +3464,7 @@
         "eyeColor": "Карие",
         "hairColor": "Каштановые"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Чикаго, Иллинойс, США",
@@ -3528,7 +3528,7 @@
       "name": "Медуза",
       "realName": "Медуза Амакуин",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -3540,7 +3540,7 @@
         "eyeColor": "Зеленые",
         "hairColor": "Рыжие"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Аттилан (Луна)",
@@ -3599,7 +3599,7 @@
       "name": "Мерзость",
       "realName": "Эмиль Блонски",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 50,
       "birthDate": "1973-01-01",
@@ -3611,7 +3611,7 @@
         "eyeColor": "Зеленые",
         "hairColor": "Зеленый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Россия",
@@ -3670,7 +3670,7 @@
       "name": "Мистерио",
       "realName": "Квентин Бек",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 40,
       "birthDate": "1983-01-01",
@@ -3682,7 +3682,7 @@
         "eyeColor": "Карие",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Неизвестно",
@@ -3741,7 +3741,7 @@
       "name": "Мистер Фантастик",
       "realName": "Рид Ричардс",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 40,
       "birthDate": "1983-01-01",
@@ -3753,7 +3753,7 @@
         "eyeColor": "Карие",
         "hairColor": "Каштановые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Централ-Сити, США",
@@ -3816,7 +3816,7 @@
       "name": "Мисс Марвел",
       "realName": "Камала Хан",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 17,
       "birthDate": "2006-01-01",
@@ -3828,7 +3828,7 @@
         "eyeColor": "Карие",
         "hairColor": "Чёрные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Джерси-Сити, Нью-Джерси, США",
@@ -3887,7 +3887,7 @@
       "name": "Морбиус",
       "realName": "Майкл Морбиус",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1978-01-01",
@@ -3899,7 +3899,7 @@
         "eyeColor": "Красные",
         "hairColor": "Черные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Греция",
@@ -3958,7 +3958,7 @@
       "name": "Накия",
       "realName": "Накия",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 30,
       "birthDate": "1993-01-01",
@@ -3970,7 +3970,7 @@
         "eyeColor": "Карие",
         "hairColor": "Черные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Ваканда",
@@ -4029,7 +4029,7 @@
       "name": "Небула",
       "realName": "Небула",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 32,
       "birthDate": "1991-01-01",
@@ -4041,7 +4041,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Лысая"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Неизвестно",
@@ -4106,7 +4106,7 @@
       "name": "Ник Фьюри",
       "realName": "Николас Джозеф Фьюри",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 65,
       "birthDate": "1958-01-01",
@@ -4118,7 +4118,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -4184,7 +4184,7 @@
       "name": "Нова",
       "realName": "Ричард Райдер",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 32,
       "birthDate": "1991-01-01",
@@ -4196,7 +4196,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -4255,7 +4255,7 @@
       "name": "Обадайя Стейн",
       "realName": "Обадайя Стейн",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Убит Железным человеком (реакторное излучение)",
       "age": 60,
       "birthDate": "1963-01-01",
@@ -4267,7 +4267,7 @@
         "eyeColor": "Карие",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "США",
@@ -4326,7 +4326,7 @@
       "name": "Один",
       "realName": "Один Борсон",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Умер от старости/болезни",
       "age": 5000,
       "birthDate": "3000-01-01",
@@ -4338,7 +4338,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Асгард",
@@ -4397,7 +4397,7 @@
       "name": "Окойе",
       "realName": "Окойе",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -4409,7 +4409,7 @@
         "eyeColor": "Карие",
         "hairColor": "Чёрные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Ваканда",
@@ -4473,7 +4473,7 @@
       "name": "Оса",
       "realName": "Хоуп ван Дайн / Джанет ван Дайн",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -4485,7 +4485,7 @@
         "eyeColor": "Карие / Голубые",
         "hairColor": "Блондинка / Блондинка"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "США",
@@ -4544,7 +4544,7 @@
       "name": "Пегги Картер",
       "realName": "Маргарет Элизабет Картер",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Старость",
       "age": 90,
       "birthDate": "1921-01-01",
@@ -4556,7 +4556,7 @@
         "eyeColor": "Карие",
         "hairColor": "Каштановые"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Лондон, Англия",
@@ -4615,7 +4615,7 @@
       "name": "Пеппер Поттс",
       "realName": "Вирджиния Поттс",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1978-01-01",
@@ -4627,7 +4627,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Рыжие"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "США",
@@ -4693,7 +4693,7 @@
       "name": "Песочный человек",
       "realName": "Флинт Марко",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 40,
       "birthDate": "1983-01-01",
@@ -4705,7 +4705,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -4764,7 +4764,7 @@
       "name": "Плащ и Кинжал",
       "realName": "Тайрон Джонсон / Тэнди Боуэн",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 25,
       "birthDate": "1998-01-01",
@@ -4835,7 +4835,7 @@
       "name": "Призрак",
       "realName": "Ава Старр",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 30,
       "birthDate": "1993-01-01",
@@ -4847,7 +4847,7 @@
         "eyeColor": "Карие",
         "hairColor": "Черные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "США",
@@ -4906,7 +4906,7 @@
       "name": "Профессор Икс",
       "realName": "Чарльз Ксавьер",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 60,
       "birthDate": "1963-01-01",
@@ -4918,7 +4918,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -4985,7 +4985,7 @@
       "name": "Пятница",
       "realName": "Friday",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 10,
       "birthDate": "2013-01-01",
@@ -4997,7 +4997,7 @@
         "eyeColor": "Не применимо",
         "hairColor": "Не применимо"
       },
-      "gender": "other",
+      "gender": "Неизвестно",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Создана Тони Старком",
@@ -5061,7 +5061,7 @@
       "name": "Ронан Обвинитель",
       "realName": "Ронан Аккаус",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Уничтожен Камнем силы (Стражи Галактики)",
       "age": 50,
       "birthDate": "1970-01-01",
@@ -5073,7 +5073,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Империя Кри",
@@ -5132,7 +5132,7 @@
       "name": "Росомаха",
       "realName": "Джеймс 'Логан' Хоулетт",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 137,
       "birthDate": "1885-01-01",
@@ -5144,7 +5144,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Чёрные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Канада",
@@ -5213,7 +5213,7 @@
       "name": "Серебряный Сёрфер",
       "realName": "Норрин Радд",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 1000,
       "birthDate": "1024-01-01",
@@ -5225,7 +5225,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Зенн-Ла",
@@ -5284,7 +5284,7 @@
       "name": "Серси",
       "realName": "Серси",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 5000,
       "birthDate": "3000-01-01",
@@ -5296,7 +5296,7 @@
         "eyeColor": "Зелёные",
         "hairColor": "Каштановые"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Олимпия (космос)",
@@ -5355,7 +5355,7 @@
       "name": "Сиф",
       "realName": "Сиф",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 1000,
       "birthDate": "1024-01-01",
@@ -5367,7 +5367,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Чёрные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Асгард",
@@ -5426,7 +5426,7 @@
       "name": "Сокол",
       "realName": "Сэм Уилсон",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 40,
       "birthDate": "1983-01-01",
@@ -5438,7 +5438,7 @@
         "eyeColor": "Карие",
         "hairColor": "Чёрные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -5503,7 +5503,7 @@
       "name": "Соколиный глаз",
       "realName": "Клинт Бартон / Кейт Бишоп",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1978-01-01",
@@ -5580,7 +5580,7 @@
       "name": "Сорвиголова",
       "realName": "Мэтт Мёрдок",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -5592,7 +5592,7 @@
         "eyeColor": "Карие (слепой)",
         "hairColor": "Рыжие"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -5651,7 +5651,7 @@
       "name": "Стервятник",
       "realName": "Эдриан Тумс",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 55,
       "birthDate": "1968-01-01",
@@ -5663,7 +5663,7 @@
         "eyeColor": "Карие",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -5722,7 +5722,7 @@
       "name": "Стик",
       "realName": "Стик",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Убит Рукой",
       "age": 70,
       "birthDate": "1950-01-01",
@@ -5734,7 +5734,7 @@
         "eyeColor": "Голубые (слепой)",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Неизвестно",
@@ -5793,7 +5793,7 @@
       "name": "Суртур",
       "realName": "Суртур",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 10000,
       "birthDate": "8000-01-01",
@@ -5805,7 +5805,7 @@
         "eyeColor": "Огненные",
         "hairColor": "Нет"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Муспельхейм",
@@ -5864,7 +5864,7 @@
       "name": "Танос",
       "realName": "Танос",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 1000,
       "birthDate": "1024-01-01",
@@ -5876,7 +5876,7 @@
         "eyeColor": "Красные",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Титан",
@@ -5942,7 +5942,7 @@
       "name": "Тор",
       "realName": "Тор Одинсон",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 1500,
       "birthDate": "0518-01-01",
@@ -5954,7 +5954,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Светлые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Асгард",
@@ -6022,7 +6022,7 @@
       "name": "Т'Чака",
       "realName": "Т'Чака",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Убит Киллмонгером",
       "age": 60,
       "birthDate": "1960-01-01",
@@ -6034,7 +6034,7 @@
         "eyeColor": "Карие",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Ваканда",
@@ -6093,7 +6093,7 @@
       "name": "Улисс Кло",
       "realName": "Улисс Кло",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Убит Киллмонгером",
       "age": 50,
       "birthDate": "1974-01-01",
@@ -6105,7 +6105,7 @@
         "eyeColor": "Карие",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Бельгия",
@@ -6164,7 +6164,7 @@
       "name": "Утка Говард",
       "realName": "Говард",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1978-01-01",
@@ -6176,7 +6176,7 @@
         "eyeColor": "Карие",
         "hairColor": "Белое оперение"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Птичий мир",
@@ -6235,7 +6235,7 @@
       "name": "Фандрал",
       "realName": "Фандрал",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Убит Хелой",
       "age": 1000,
       "birthDate": "1024-01-01",
@@ -6247,7 +6247,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Асгард",
@@ -6306,7 +6306,7 @@
       "name": "Фил Колсон",
       "realName": "Фил Колсон",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 50,
       "birthDate": "1973-01-01",
@@ -6318,7 +6318,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "США",
@@ -6377,7 +6377,7 @@
       "name": "Флэш Томпсон",
       "realName": "Юджин 'Флэш' Томпсон",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -6389,7 +6389,7 @@
         "eyeColor": "Карие",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -6455,7 +6455,7 @@
       "name": "Фогги Нельсон",
       "realName": "Фрэнклин 'Фогги' Нельсон",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -6467,7 +6467,7 @@
         "eyeColor": "Карие",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -6526,7 +6526,7 @@
       "name": "Халк",
       "realName": "Брюс Бэннер",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 49,
       "birthDate": "1969-12-18",
@@ -6538,7 +6538,7 @@
         "eyeColor": "Голубые / Зеленые",
         "hairColor": "Каштановые / Зеленый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Дейтон, Огайо, США",
@@ -6605,7 +6605,7 @@
       "name": "Хела",
       "realName": "Хела",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 2000,
       "birthDate": "0018-01-01",
@@ -6617,7 +6617,7 @@
         "eyeColor": "Зеленые",
         "hairColor": "Чёрные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Асгард / Хель",
@@ -6676,7 +6676,7 @@
       "name": "Хлыст",
       "realName": "Иван Ванко",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Покончил с собой",
       "age": 45,
       "birthDate": "1975-01-01",
@@ -6688,7 +6688,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Чёрные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Россия",
@@ -6747,7 +6747,7 @@
       "name": "Хоуп ван Дайн",
       "realName": "Хоуп ван Дайн",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -6759,7 +6759,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Тёмные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "США",
@@ -6823,7 +6823,7 @@
       "name": "Хэнк Пим",
       "realName": "Хэнк Пим",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 70,
       "birthDate": "1953-01-01",
@@ -6835,7 +6835,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Небраска, США",
@@ -6894,7 +6894,7 @@
       "name": "Хэппи Хоган",
       "realName": "Гарольд 'Хэппи' Хоган",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 50,
       "birthDate": "1973-01-01",
@@ -6906,7 +6906,7 @@
         "eyeColor": "Карие",
         "hairColor": "Лысый"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -6974,7 +6974,7 @@
       "name": "Целестиалы",
       "realName": "Аришем, Ехидна, Несарий и др.",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 13000000000,
       "birthDate": "13000000000-01-01",
@@ -6986,7 +6986,7 @@
         "eyeColor": "Космические",
         "hairColor": "Нет"
       },
-      "gender": "other",
+      "gender": "Неизвестно",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Мультивселенная",
@@ -7045,7 +7045,7 @@
       "name": "Чаровница",
       "realName": "Амора",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 1000,
       "birthDate": "1024-01-01",
@@ -7057,7 +7057,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Светлые"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Асгард",
@@ -7116,7 +7116,7 @@
       "name": "Человек-муравей",
       "realName": "Скотт Лэнг",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1978-01-01",
@@ -7128,7 +7128,7 @@
         "eyeColor": "Карие",
         "hairColor": "Каштановые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Сан-Франциско, США",
@@ -7193,7 +7193,7 @@
       "name": "Человек-паук",
       "realName": "Питер Паркер",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 25,
       "birthDate": "1995-08-10",
@@ -7205,7 +7205,7 @@
         "eyeColor": "Карие",
         "hairColor": "Каштановые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -7276,7 +7276,7 @@
       "name": "Чёрная вдова",
       "realName": "Наталья Альяновна Романова",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Пожертвовала собой на Вормире",
       "age": 38,
       "birthDate": "1984-01-01",
@@ -7288,7 +7288,7 @@
         "eyeColor": "Зеленые",
         "hairColor": "Рыжие"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "СССР",
@@ -7356,7 +7356,7 @@
       "name": "Чёрная пантера",
       "realName": "Т'Чалла",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Болезнь (в КВМ)",
       "age": 40,
       "birthDate": "1978-01-01",
@@ -7368,7 +7368,7 @@
         "eyeColor": "Карие",
         "hairColor": "Черные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Ваканда",
@@ -7432,7 +7432,7 @@
       "name": "Шан-Чи",
       "realName": "Шан-Чи",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 28,
       "birthDate": "1995-01-01",
@@ -7444,7 +7444,7 @@
         "eyeColor": "Карие",
         "hairColor": "Черные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Китай",
@@ -7503,7 +7503,7 @@
       "name": "Шокер",
       "realName": "Герман Шульц",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 45,
       "birthDate": "1978-01-01",
@@ -7515,7 +7515,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Русые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Нью-Йорк, США",
@@ -7574,7 +7574,7 @@
       "name": "Шури",
       "realName": "Шури",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 25,
       "birthDate": "1998-01-01",
@@ -7586,7 +7586,7 @@
         "eyeColor": "Карие",
         "hairColor": "Черные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Ваканда",
@@ -7645,7 +7645,7 @@
       "name": "Шэрон Картер",
       "realName": "Шэрон Картер",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -7657,7 +7657,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Блондинка"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "США",
@@ -7720,7 +7720,7 @@
       "name": "Эго",
       "realName": "Эго — живая планета",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Уничтожен Стражами Галактики",
       "age": 1000000,
       "birthDate": "1000000-01-01",
@@ -7732,7 +7732,7 @@
         "eyeColor": "Не применимо",
         "hairColor": "Не применимо"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Космос",
@@ -7791,7 +7791,7 @@
       "name": "Электра",
       "realName": "Электра Начиос",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -7803,7 +7803,7 @@
         "eyeColor": "Карие",
         "hairColor": "Черные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Греция",
@@ -7862,7 +7862,7 @@
       "name": "Ящер",
       "realName": "Курт Коннорс",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 55,
       "birthDate": "1968-01-01",
@@ -7874,7 +7874,7 @@
         "eyeColor": "Желтые",
         "hairColor": "Нет"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Флорида, США",
@@ -7933,7 +7933,7 @@
       "name": "Небула",
       "realName": "Небула",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 35,
       "birthDate": "1988-01-01",
@@ -7945,7 +7945,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Лысая (в фильме)"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Космос",
@@ -8010,7 +8010,7 @@
       "name": "Один",
       "realName": "Один",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Умер от старости / убит Хелой (в фильме)",
       "age": 5000,
       "birthDate": "3000-01-01",
@@ -8022,7 +8022,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Седые"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Асгард",
@@ -8081,7 +8081,7 @@
       "name": "Хеймдалль",
       "realName": "Хеймдалль",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Убит Таносом",
       "age": 2000,
       "birthDate": "0018-01-01",
@@ -8093,7 +8093,7 @@
         "eyeColor": "Золотистые",
         "hairColor": "Черные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Асгард",
@@ -8158,7 +8158,7 @@
       "name": "Хогун",
       "realName": "Хогун",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Убит Хелой",
       "age": 1000,
       "birthDate": "1024-01-01",
@@ -8170,7 +8170,7 @@
         "eyeColor": "Карие",
         "hairColor": "Черные"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Асгард",
@@ -8229,7 +8229,7 @@
       "name": "Вольштагг",
       "realName": "Вольштагг",
       "isAlive": false,
-      "status": "deceased",
+      "status": "Мертв",
       "causeOfDeath": "Убит Хелой",
       "age": 1000,
       "birthDate": "1024-01-01",
@@ -8241,7 +8241,7 @@
         "eyeColor": "Голубые",
         "hairColor": "Рыжие"
       },
-      "gender": "male",
+      "gender": "Мужчина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Асгард",
@@ -8300,7 +8300,7 @@
       "name": "Леди Смерть",
       "realName": "Смерть",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 1000000,
       "birthDate": "1000000-01-01",
@@ -8312,7 +8312,7 @@
         "eyeColor": "Черные",
         "hairColor": "Черные"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Космос",
@@ -8371,7 +8371,7 @@
       "name": "Вечность",
       "realName": "Вечность",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 13000000000,
       "birthDate": "13000000000-01-01",
@@ -8383,7 +8383,7 @@
         "eyeColor": "Белые",
         "hairColor": "Не применимо"
       },
-      "gender": "other",
+      "gender": "Неизвестно",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Мультивселенная",
@@ -8442,7 +8442,7 @@
       "name": "Бесконечность",
       "realName": "Бесконечность",
       "isAlive": true,
-      "status": "alive",
+      "status": "Живой",
       "causeOfDeath": null,
       "age": 13000000000,
       "birthDate": "13000000000-01-01",
@@ -8454,7 +8454,7 @@
         "eyeColor": "Черные",
         "hairColor": "Не применимо"
       },
-      "gender": "female",
+      "gender": "Женщина",
       "universe": "Earth-616",
       "origin": {
         "birthPlace": "Мультивселенная",

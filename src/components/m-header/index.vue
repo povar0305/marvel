@@ -4,19 +4,47 @@
   import { Back, Moon, Search, Sunny } from '@element-plus/icons-vue'
   import { useThemeStore } from '@/stores/theme.ts'
   import { storeToRefs } from 'pinia'
+  import { useHeroesStore } from '@/stores/heroes.ts'
+  import { debounce } from '@/utils/debounce.ts'
 
   const router = useRouter()
   const route = useRoute()
 
+  const heroesStore = useHeroesStore()
+  /**
+   * Функция для возврата на предыдущую страницу
+   */
   const goBack = () => {
     router.back()
   }
-
+  /**
+   * Поисковый запрос
+   */
   const request = ref((route.query.q as string) || '')
+  /**
+   * Функция для установки значения поискового запроса в стор
+   */
+  const handleSearch = debounce(() => {
+    heroesStore.setSearchQuery(request.value)
+  }, 500)
+  /**
+   * Функция для обновления поискового запроса
+   * @param event_request - поисковый запрос
+   */
   const onUpdateQuery = (event_request: string) => {
     request.value = event_request || ''
+
+    if (router.currentRoute.value.name === 'home') {
+      onUpdateUrl()
+      handleSearch()
+    }
   }
+  /**
+   * Функция для обновления урла страницы
+   */
   const onUpdateUrl = () => {
+    heroesStore.setSearchQuery(request.value.trim() || '')
+
     router.push({
       path: '/',
       query: {
@@ -26,18 +54,21 @@
   }
 
   const themeStore = useThemeStore()
-
   const { is_dark } = storeToRefs(themeStore)
 </script>
 
 <template>
-  <div class="flex flex-1 p-2 sticky shadow-comic bg-bg-overlay top-2 m-2 mt-0 rounded-sm">
+  <div
+    class="flex flex-1 p-2 sticky shadow-comic bg-bg-overlay top-2 m-2 mt-0 rounded-sm z-[2000000000]"
+  >
     <el-page-header @back="goBack">
       <template #icon>
         <el-icon>
           <Back />
         </el-icon>
       </template>
+
+      <template #title />
 
       <template #content>
         <div class="flex w-full gap-4 align-center">
@@ -47,7 +78,7 @@
 
           <el-input
             :model-value="request"
-            placeholder="Search heroes by name"
+            placeholder="Начните вводить текст"
             @keyup.enter="onUpdateUrl"
             @update:model-value="onUpdateQuery"
           >
@@ -79,10 +110,19 @@
     margin-right: 0;
     flex: 1;
   }
+
   &__content,
   &__header {
     display: flex;
     flex: 1;
+  }
+
+  & .el-divider {
+    margin-left: 0;
+  }
+
+  &__title {
+    display: none;
   }
 }
 </style>

@@ -1,3 +1,5 @@
+import type { genders, statuses } from '@/types/filters.ts'
+
 /**
  * Статистика героя
  */
@@ -88,7 +90,7 @@ export interface Hero {
   realName: string // Настоящее имя
 
   isAlive: boolean // Жив ли герой
-  status: 'alive' | 'deceased' | 'unknown' // Статус подробно
+  status: statuses // Статус подробно
   causeOfDeath?: string // Причина смерти (если мёртв)
 
   age: number // Возраст (в годах)
@@ -96,7 +98,7 @@ export interface Hero {
   deathDate?: string // Дата смерти (если мёртв)
 
   physical: HeroPhysical // Физические параметры
-  gender: 'male' | 'female' | 'other' // Пол
+  gender: genders // Пол
 
   universe: string // Вселенная (Earth-616, Earth-1610 и т.д.)
   origin: HeroOrigin // Место рождения и гражданство
@@ -136,20 +138,4 @@ export interface Hero {
   }
 
   alternateVersions?: HeroAlternateVersions[]
-}
-
-/**
- * Фильтры для поиска героев
- */
-export interface HeroFilters {
-  team?: string[] // Фильтр по командам
-  universe?: string[] // Фильтр по вселенным
-  status?: 'alive' | 'deceased' | 'unknown' // Фильтр по статусу
-  gender?: 'male' | 'female' | 'other' // Фильтр по полу
-  minPowerLevel?: number // Минимальный уровень силы
-  maxPowerLevel?: number // Максимальный уровень силы
-  species?: string[] // Фильтр по расе
-  searchQuery?: string // Поиск по имени/псевдониму
-  sortBy?: 'popularity' | 'powerLevel' | 'name' | 'age' // Сортировка
-  sortOrder?: 'asc' | 'desc' // Порядок сортировки
 }

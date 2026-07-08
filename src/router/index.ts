@@ -6,12 +6,14 @@ const router = createRouter({
   routes: MENU,
 })
 
-router.beforeEach((to, from, next) => {
+
+/**
+ * Подстановка тайтла страницы
+ */
+router.afterEach((to, _from, _next) => {
   const defaultTitle = 'Marvel Heroes'
   const pageTitle = (to?.meta?.title as string) || defaultTitle
   document.title = pageTitle ? `${pageTitle} | Marvel Heroes` : defaultTitle
-
-  next()
 })
 
 export default router

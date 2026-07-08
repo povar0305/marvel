@@ -1,17 +1,20 @@
 import About from '@/pages/about.vue'
 import Hero from '@/pages/hero.vue'
-import Index from '@/pages/index.vue'
+import Index from '../pages/index/index.vue'
 import Favorite from '@/pages/favorite.vue'
 
 import type { RouteRecordRaw } from 'vue-router'
 
+/**
+ * Константа для хранения меню
+ */
 export const MENU: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'home',
     component: Index,
     meta: {
-      title: 'Search',
+      title: 'Поиск',
       is_in_bottom_menu: true,
       icon: 'iconamoon:search-light',
     },
@@ -21,7 +24,7 @@ export const MENU: RouteRecordRaw[] = [
     name: 'favorites',
     component: Favorite,
     meta: {
-      title: 'Favorites',
+      title: 'Избранное',
       is_in_bottom_menu: true,
       icon: 'material-symbols:kid-star-outline',
     },
@@ -31,14 +34,14 @@ export const MENU: RouteRecordRaw[] = [
     name: 'about',
     component: About,
     meta: {
-      title: 'About',
+      title: 'О проекте',
       is_in_bottom_menu: true,
       icon: 'material-symbols:question-mark',
     },
   },
   {
     path: '/hero/:id',
-    name: 'hero',
+    name: 'Герой',
     component: Hero,
     meta: {
       title: 'Hero',
