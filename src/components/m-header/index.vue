@@ -68,6 +68,8 @@
         </el-icon>
       </template>
 
+      <template #title />
+
       <template #content>
         <div class="flex w-full gap-4 align-center">
           <span class="text-large font-600 mr-3 whitespace-nowrap leading-8">
@@ -76,7 +78,7 @@
 
           <el-input
             :model-value="request"
-            placeholder="Search heroes by name"
+            placeholder="Поиск персонажей по имени"
             @keyup.enter="onUpdateUrl"
             @update:model-value="onUpdateQuery"
           >
@@ -108,10 +110,19 @@
     margin-right: 0;
     flex: 1;
   }
+
   &__content,
   &__header {
     display: flex;
     flex: 1;
+  }
+
+  & .el-divider {
+    margin-left: 0;
+  }
+
+  &__title {
+    display: none;
   }
 }
 </style>
