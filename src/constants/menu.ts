@@ -14,7 +14,7 @@ export const MENU: RouteRecordRaw[] = [
     name: 'home',
     component: Index,
     meta: {
-      title: 'Search',
+      title: 'Поиск',
       is_in_bottom_menu: true,
       icon: 'iconamoon:search-light',
     },
@@ -24,7 +24,7 @@ export const MENU: RouteRecordRaw[] = [
     name: 'favorites',
     component: Favorite,
     meta: {
-      title: 'Favorites',
+      title: 'Избранное',
       is_in_bottom_menu: true,
       icon: 'material-symbols:kid-star-outline',
     },
@@ -34,14 +34,14 @@ export const MENU: RouteRecordRaw[] = [
     name: 'about',
     component: About,
     meta: {
-      title: 'About',
+      title: 'О проекте',
       is_in_bottom_menu: true,
       icon: 'material-symbols:question-mark',
     },
   },
   {
     path: '/hero/:id',
-    name: 'hero',
+    name: 'Герой',
     component: Hero,
     meta: {
       title: 'Hero',
