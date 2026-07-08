@@ -6,7 +6,7 @@
   import MFilters from '@/pages/index/components/m-filters.vue'
 
   const heroesStore = useHeroesStore()
-  const { current_heroes, total_heroes, page } = storeToRefs(heroesStore)
+  const { current_heroes, total_filtred_heroes, page } = storeToRefs(heroesStore)
 
   const onChangePage: (currentPage: number, _pageSize: number) => void = (currentPage, _pageSize) => {
     if (currentPage !== page.value) {
@@ -37,7 +37,7 @@
 
     <div class="w-full justify-center flex">
       <el-pagination
-        :total="total_heroes"
+        :total="total_filtred_heroes"
         layout="pager"
         :hide-on-single-page="true"
         @change="onChangePage"

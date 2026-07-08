@@ -128,6 +128,7 @@ export const useHeroesStore = defineStore('heroes', () => {
    * Общее количество героев
    */
   const total_heroes = computed(() => heroes.value?.length || 0)
+  const total_filtred_heroes = computed(() => sorted_heroes.value?.length || 0)
 
   /**
    * Отфильтрованные герои
@@ -376,16 +377,17 @@ export const useHeroesStore = defineStore('heroes', () => {
     setItemsPerPage,
     setSearchQuery,
     setSortBy,
+    setSortOrder,
     setStatus,
     setTeam,
     setUniverse,
     sort_by,
+    sort_by_list,
     sort_order,
     statuses,
-    sort_by_list,
     teams,
     total_filtered,
-    setSortOrder,
+    total_filtred_heroes,
     total_heroes,
     total_pages,
     universes,
