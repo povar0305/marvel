@@ -15,7 +15,7 @@ export interface HeroFilters {
   sortOrder?: sort_order // Порядок сортировки
 }
 
-export type statuses = 'alive' | 'deceased' | 'unknown'
-export type genders = 'male' | 'female' | 'other'
+export type statuses = 'Жив' | 'Мертв' | 'Неизвестно'
+export type genders = 'Мужчина' | 'Женщина' | 'Другое'
 export type sort_by = 'popularity' | 'powerLevel' | 'name' | 'age'
 export type sort_order = 'asc' | 'desc'
