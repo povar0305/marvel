@@ -42,34 +42,34 @@ export const useHeroesStore = defineStore('heroes', () => {
   /**
    * Выбранная вселенная для фильтрации
    */
-  const selected_universe = ref<string>('all')
+  const selected_universe = ref<string>('Все')
 
   /**
    * Выбранная команда для фильтрации
    */
-  const selected_team = ref<string>('all')
+  const selected_team = ref<string>('Все')
 
   /**
    * Выбранная организация для фильтрации
    */
-  const selected_affiliations = ref<string>('all')
+  const selected_affiliations = ref<string>('Все')
 
   /**
    * Выбранный статус для фильтрации
    */
-  const selected_status = ref<statuses | 'all'>('all')
+  const selected_status = ref<statuses | 'Все'>('Все')
 
   /**
    * Поля, по которым можно сортировать
    */
   const sort_by_list = [
-    { key: 'name', option: 'Name' },
-    { key: 'popularity', option: 'Popularity' },
-    { key: 'age', option: 'Age' },
-    { key: 'gender', option: 'Gender' },
-    { key: 'powerLevel', option: 'Power level' },
-    { key: 'moviesCount', option: 'Moves' },
-    { key: 'comicsCount', option: 'Comics' },
+    { key: 'name', option: 'Имя' },
+    { key: 'popularity', option: 'Популярность' },
+    { key: 'age', option: 'Возраст' },
+    { key: 'gender', option: 'Гендер' },
+    { key: 'powerLevel', option: 'Уровень' },
+    { key: 'moviesCount', option: 'Фильмы' },
+    { key: 'comicsCount', option: 'Комиксы' },
   ]
   /**
    * Выбранное поле сортировки
@@ -148,19 +148,19 @@ export const useHeroesStore = defineStore('heroes', () => {
       )
     }
 
-    if (selected_universe.value !== 'all') {
+    if (selected_universe.value !== 'Все') {
       result = result.filter((hero) => hero.universe === selected_universe.value)
     }
 
-    if (selected_team.value !== 'all') {
+    if (selected_team.value !== 'Все') {
       result = result.filter((hero) => hero.teams.includes(selected_team.value))
     }
 
-    if (selected_affiliations.value !== 'all') {
+    if (selected_affiliations.value !== 'Все') {
       result = result.filter((hero) => hero.affiliations.includes(selected_affiliations.value))
     }
 
-    if (selected_status.value !== 'all') {
+    if (selected_status.value !== 'Все') {
       result = result.filter((hero) => hero.status === selected_status.value)
     }
 
@@ -223,7 +223,7 @@ export const useHeroesStore = defineStore('heroes', () => {
    */
   const universes = computed(() => {
     const set = new Set(heroes.value.map((h) => h.universe).filter(Boolean))
-    return ['all', ...Array.from(set)]
+    return ['Все', ...Array.from(set)]
   })
 
   /**
@@ -231,21 +231,21 @@ export const useHeroesStore = defineStore('heroes', () => {
    */
   const teams = computed(() => {
     const set = new Set(heroes.value.flatMap((h) => h.teams))
-    return ['all', ...Array.from(set)]
+    return ['Все', ...Array.from(set)]
   })
   /**
    * Уникальные организации для фильтра
    */
   const affiliations = computed(() => {
     const set = new Set(heroes.value.flatMap((h) => h.affiliations))
-    return ['all', ...Array.from(set)]
+    return ['Все', ...Array.from(set)]
   })
   /**
    * Уникальные статусы для фильтра
    */
   const statuses = computed(() => {
     const set = new Set(heroes.value.flatMap((h) => h.status))
-    return ['all', ...Array.from(set)]
+    return ['Все', ...Array.from(set)]
   })
 
   /**
@@ -316,7 +316,7 @@ export const useHeroesStore = defineStore('heroes', () => {
   /**
    * Установка фильтра по статусу
    */
-  function setStatus(status: statuses | 'all') {
+  function setStatus(status: statuses | 'Все') {
     selected_status.value = status
     resetPage()
   }
@@ -341,9 +341,9 @@ export const useHeroesStore = defineStore('heroes', () => {
    */
   function resetFilters() {
     search_query.value = ''
-    selected_universe.value = 'all'
-    selected_team.value = 'all'
-    selected_status.value = 'all'
+    selected_universe.value = 'Все'
+    selected_team.value = 'Все'
+    selected_status.value = 'Все'
     sort_by.value = 'name'
     sort_order.value = 'asc'
     resetPage()
