@@ -12,11 +12,12 @@
    */
   const getIconGender = (gender: string) => {
     const iconsByGender = {
-      male: 'material-symbols:male-rounded',
-      female: 'material-symbols:female-rounded',
-      other: 'material-symbols:question-mark-rounded',
+      Мужчина: 'material-symbols:male-rounded',
+      Женщина: 'material-symbols:female-rounded',
+      Другое: 'material-symbols:question-mark-rounded',
     }
-    return iconsByGender[gender.toLowerCase() as keyof typeof iconsByGender] || iconsByGender.other
+
+    return iconsByGender[gender as keyof typeof iconsByGender] || iconsByGender['Другое']
   }
 
   /**
@@ -37,62 +38,62 @@
       {
         icon: 'material-symbols:globe',
         key: 'universe',
-        tippy_text: 'Universe in which the hero appears',
+        tippy_text: 'Вселенная, в которой появляется герой',
       },
       {
         icon: 'material-symbols:person',
         key: 'species',
-        tippy_text: 'Species of the hero',
+        tippy_text: 'Вид героя',
       },
     ],
     [
       {
         icon: 'material-symbols:equalizer',
         key: 'powerLevel',
-        tippy_text: 'Power level of the hero',
+        tippy_text: 'Уровень силы героя',
       },
       {
         icon: 'material-symbols:speed',
         key: 'speed',
         parent_key: 'stats',
-        tippy_text: 'Speed of the hero',
+        tippy_text: 'Скорость героя',
       },
       {
         icon: 'material-symbols:fitness-center',
         key: 'strength',
         parent_key: 'stats',
-        tippy_text: 'Strength of the hero',
+        tippy_text: 'Сила героя',
       },
       {
         icon: 'material-symbols:psychology',
         key: 'intelligence',
         parent_key: 'stats',
-        tippy_text: 'Intelligence of the hero',
+        tippy_text: 'Интеллект героя',
       },
       {
         icon: 'material-symbols:sports-martial-arts',
         key: 'fightingSkills',
         parent_key: 'stats',
-        tippy_text: 'Fighting skills of the hero',
+        tippy_text: 'Боевые навыки героя',
       },
     ],
     [
       {
         icon: 'material-symbols:groups',
         key: 'teams',
-        tippy_text: 'Teams the hero belongs to',
+        tippy_text: 'Команды, к которым принадлежит герой',
       },
     ],
     [
       {
         icon: 'material-symbols:movie',
         key: 'moviesCount',
-        tippy_text: 'Movies in which the hero appears',
+        tippy_text: 'Фильмы, в которых появляется герой',
       },
       {
         icon: 'material-symbols:menu-book',
         key: 'comicsCount',
-        tippy_text: 'Comics in which the hero appears',
+        tippy_text: 'Комиксы, в которых появляется герой',
       },
     ],
   ]
@@ -154,18 +155,18 @@
         {{ hero.name }}
 
         <Icon
-          v-tippy="{ content: `Gender: ${hero.gender}` }"
+          v-tippy="{ content: `Пол: ${hero.gender}` }"
           :class="[
             'text-md',
-            { 'text-blue-300': hero.gender === 'male' },
-            { 'text-pink-300': hero.gender === 'female' },
+            { 'text-blue-300': hero.gender === 'Мужчина' },
+            { 'text-pink-300': hero.gender === 'Женщина' },
           ]"
           :icon="getIconGender(hero.gender)"
         />
 
         <Icon
           v-if="hero.causeOfDeath"
-          v-tippy="{ content: `Cause of death: ${hero.causeOfDeath}` }"
+          v-tippy="{ content: `Причина смерти: ${hero.causeOfDeath}` }"
           icon="material-symbols:skull-outline"
         />
       </h2>
@@ -175,7 +176,7 @@
       </span>
 
       <el-rate
-        v-tippy="{ content: `Popularity: ${hero.popularity}` }"
+        v-tippy="{ content: `Популярность: ${hero.popularity}` }"
         :model-value="Number(hero.popularity) / 2"
         :style="{
           '--color': '#d4c9b0',

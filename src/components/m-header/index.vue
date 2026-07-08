@@ -78,7 +78,7 @@
 
           <el-input
             :model-value="request"
-            placeholder="Поиск персонажей по имени"
+            placeholder="Начните вводить текст"
             @keyup.enter="onUpdateUrl"
             @update:model-value="onUpdateQuery"
           >
