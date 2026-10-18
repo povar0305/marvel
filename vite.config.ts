@@ -9,6 +9,7 @@ import tailwindcss from '@tailwindcss/vite'
 import Icons from 'unplugin-icons/vite'
 
 export default defineConfig({
+  appType: 'spa',
   plugins: [
     vue(),
     tailwindcss(),
