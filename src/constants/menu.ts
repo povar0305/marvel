@@ -26,7 +26,7 @@ export const MENU: RouteRecordRaw[] = [
     meta: {
       title: 'Избранное',
       is_in_bottom_menu: true,
-      icon: 'material-symbols:kid-star-outline',
+      icon: 'material-symbols:favorite-outline',
     },
   },
   {
