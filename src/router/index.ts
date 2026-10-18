@@ -4,7 +4,7 @@ import { useHeroesStore } from '@/stores/heroes.ts'
 import { useFavoriteStore } from '@/stores/favorite.ts'
 
 const router = createRouter({
-  history: createWebHistory('/'),
+  history: createWebHistory(),
   routes: MENU,
 })
 

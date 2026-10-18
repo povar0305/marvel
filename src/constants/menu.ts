@@ -1,5 +1,5 @@
 import About from '@/pages/about.vue'
-import Hero from '@/pages/hero.vue'
+import Hero from '@/pages/hero/[id]/index.vue'
 import Index from '../pages/index/index.vue'
 import Favorite from '@/pages/favorite.vue'
 

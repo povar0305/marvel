@@ -25,6 +25,7 @@ declare module 'vue' {
     MCardHero: typeof import('./components/m-card-hero/index.vue')['default']
     MFooter: typeof import('./components/m-footer/index.vue')['default']
     MHeader: typeof import('./components/m-header/index.vue')['default']
+    MHero: typeof import('./components/m-hero/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

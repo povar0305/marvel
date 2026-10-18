@@ -2,24 +2,11 @@
   import type { Hero } from '@/types/hero.ts'
   import { Icon } from '@iconify/vue'
   import { useFavoriteStore } from '@/stores/favorite.ts'
+  import { getIconGender } from '@/utils/getIconGender.ts'
 
   defineProps<{
     hero: Hero
   }>()
-
-  /**
-   * Функция для получения иконки гендера
-   * @param gender
-   */
-  const getIconGender = (gender: string) => {
-    const iconsByGender = {
-      Мужчина: 'material-symbols:male-rounded',
-      Женщина: 'material-symbols:female-rounded',
-      Другое: 'material-symbols:question-mark-rounded',
-    }
-
-    return iconsByGender[gender as keyof typeof iconsByGender] || iconsByGender['Другое']
-  }
 
   /**
    * Интерфейс для описания свойств героя, которые выводим скопом
@@ -144,7 +131,6 @@
       hero?.isAlive ? ' hover:bg-bg-overlay! ' : 'grayscale-[0.5] opacity-70 hover:opacity-100',
     ]"
     :href="`hero/${hero.id}`"
-    target="_blank"
   >
     <div
       :style="{
