@@ -1,8 +1,13 @@
 import { defineStore } from 'pinia'
 import { computed, ref } from 'vue'
 import type { Hero } from '@/types/hero.ts'
+import { useHeroesStore } from '@/stores/heroes.ts'
+
+const STORAGE_KEY = 'favorite_hero_ids'
 
 export const useFavoriteStore = defineStore('favorite', () => {
+  const heroesStore = useHeroesStore()
+
   const favorite_list = ref<Hero[]>([])
 
   const favorite_count = computed(() => favorite_list.value.length)
@@ -50,14 +55,47 @@ export const useFavoriteStore = defineStore('favorite', () => {
     resetPage()
   }
 
+  /**
+   * Сохранение ID избранных героев в sessionStorage
+   */
+  function saveToSession(): void {
+    try {
+      const ids = favorite_list.value.map((hero) => hero.id)
+      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(ids))
+    } catch (err) {
+      console.error('Ошибка сохранения избранного в sessionStorage', err)
+    }
+  }
+
+  /**
+   * Восстановление избранного из sessionStorage
+   */
+  function loadFromSession(): void {
+    try {
+      const raw = sessionStorage.getItem(STORAGE_KEY)
+      if (!raw) return
+
+      const ids: string[] = JSON.parse(raw)
+
+      if (ids.length === 0) return
+      favorite_list.value = heroesStore.heroes.filter((hero) => {
+        return ids.includes(hero.id)
+      })
+    } catch (err) {
+      console.error('Ошибка восстановления избранного из sessionStorage', err)
+    }
+  }
+
   function toggleFavorite(hero: Hero): void {
     if (is_favorite.value(hero.id)) {
       const index = favorite_list.value.findIndex((h) => h.id === hero.id)
-      favorite_list.value.splice(index, 1)
+      if (index !== -1) favorite_list.value.splice(index, 1)
     } else {
       favorite_list.value.push(hero)
     }
+    saveToSession()
   }
+
   const is_favorite = computed(() => (heroId: Hero['id']) => {
     return favorite_list.value.some((hero) => hero.id === heroId)
   })
@@ -75,5 +113,7 @@ export const useFavoriteStore = defineStore('favorite', () => {
     goToPage,
     setItemsPerPage,
     resetPage,
+    saveToSession,
+    loadFromSession,
   }
 })

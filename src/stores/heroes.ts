@@ -128,7 +128,7 @@ export const useHeroesStore = defineStore('heroes', () => {
    * Общее количество героев
    */
   const total_heroes = computed(() => heroes.value?.length || 0)
-  const total_filtred_heroes = computed(() => sorted_heroes.value?.length || 0)
+  const total_filtered_heroes = computed(() => sorted_heroes.value?.length || 0)
 
   /**
    * Отфильтрованные герои
@@ -261,7 +261,7 @@ export const useHeroesStore = defineStore('heroes', () => {
 
     try {
       const response = await fetch('/heroes.json')
-      if (!response.ok) throw new Error('Ошибка загрузки')
+
       const result = await response.json()
 
       heroes.value = result?.heroes || []
@@ -387,7 +387,7 @@ export const useHeroesStore = defineStore('heroes', () => {
     statuses,
     teams,
     total_filtered,
-    total_filtred_heroes,
+    total_filtered_heroes: total_filtered_heroes,
     total_heroes,
     total_pages,
     universes,

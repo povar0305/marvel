@@ -1,9 +1,14 @@
 <script lang="ts" setup>
   import { useThemeStore } from './stores/theme.ts'
+  import { useFavoriteStore } from '@/stores/favorite.ts'
 
   const themeStore = useThemeStore()
 
   themeStore.initTheme()
+
+  const favoriteStore = useFavoriteStore()
+
+  favoriteStore.loadFromSession()
 </script>
 
 <template>
