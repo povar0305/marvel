@@ -134,7 +134,7 @@
     return value
   }
 
-  const { isFavorite, toggleFavorite } = useFavoriteStore()
+  const { is_favorite, toggleFavorite } = useFavoriteStore()
 </script>
 
 <template>
@@ -178,14 +178,13 @@
         <Icon
           :class="[
             'text-md cursor-pointer! transition-colors',
-            isFavorite(hero.id) ? 'text-red-300' : 'text-text-placeholder',
+            is_favorite(hero.id) ? 'text-red-300' : 'text-text-placeholder',
           ]"
           :icon="
-            isFavorite(hero.id) ? 'material-symbols:favorite' : 'material-symbols:favorite-outline'
+            is_favorite(hero.id) ? 'material-symbols:favorite' : 'material-symbols:favorite-outline'
           "
           @click.prevent.stop="toggleFavorite(hero)"
         />
-        {{ isFavorite(hero.id) }}
       </div>
 
       <span class="text-sm text-text-regular">
