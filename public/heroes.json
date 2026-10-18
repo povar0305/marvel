@@ -8506,6 +8506,2017 @@
       "social": {},
       "alternateVersions": [],
       "rating": 4.4
+    },
+    {
+      "id": "223",
+      "slug": "deadpool",
+      "name": "Дэдпул",
+      "realName": "Уэйд Уинстон Уилсон",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 35,
+      "birthDate": "1988-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "6'2\" (188 см)",
+        "weight": "210 lbs (95 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Лысый (под маской)"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Реджайна, Саскачеван, Канада",
+        "citizenship": "Гражданин Канады",
+        "identity": "secret"
+      },
+      "species": "Человек (мутировавший)",
+      "stats": {
+        "strength": 65,
+        "speed": 70,
+        "intelligence": 70,
+        "durability": 100,
+        "energyProjection": 10,
+        "fightingSkills": 95
+      },
+      "powerLevel": 6,
+      "popularity": 9.9,
+      "powers": [
+        "Фактор регенерации",
+        "Бессмертие (проклятие)",
+        "Владение оружием",
+        "Осознание четвёртой стены"
+      ],
+      "abilities": ["Мастер боя", "Наёмник", "Полиглот"],
+      "equipment": ["Катаны", "Пистолеты", "Костюм"],
+      "teams": ["Сила Икс", "Мстители (иногда)", "Отряд Икс"],
+      "affiliations": [],
+      "allies": ["Росомаха", "Кейбл", "Домино"],
+      "enemies": {
+        "mainNemesis": ["Аякс", "Танос (иногда)"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "New Mutants #98 (1991)",
+        "firstMovie": "Дэдпул (2016)",
+        "movies": ["Дэдпул", "Дэдпул 2", "Дэдпул и Росомаха"],
+        "tvShows": [],
+        "games": ["Marvel vs. Capcom", "Deadpool"],
+        "comicBooks": ["Deadpool", "Cable & Deadpool"]
+      },
+      "moviesCount": 3,
+      "comicsCount": 500,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": ["Элеонора Камилла (дочь, умерла)"],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Болтливый наёмник с фактором регенерации, известный своим чёрным юмором и нарушением четвёртой стены.",
+      "fullDescription": "Уэйд Уилсон был наёмником, который получил способность к регенерации после экспериментов программы «Оружие Икс». Он стал Дэдпулом, непредсказуемым антигероем, который часто спасает мир, но не самым героическим способом.",
+      "quote": "Максимальное усилие!",
+      "colorScheme": { "primary": "#8b0000", "secondary": "#1a1a1a", "accent": "#c0c0c0" },
+      "social": { "officialSite": "https://marvel.com/characters/deadpool" },
+      "alternateVersions": [
+        {
+          "universe": "Earth-199999",
+          "name": "Уэйд Уилсон",
+          "description": "Версия из фильмов Fox/Disney"
+        }
+      ],
+      "rating": 4.9
+    },
+    {
+      "id": "224",
+      "slug": "miles-morales",
+      "name": "Майлз Моралес",
+      "realName": "Майлз Гонсало Моралес",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 17,
+      "birthDate": "2006-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'8\" (173 см)",
+        "weight": "160 lbs (73 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Чёрные"
+      },
+      "gender": "male",
+      "universe": "Earth-1610",
+      "origin": {
+        "birthPlace": "Бруклин, Нью-Йорк, США",
+        "citizenship": "Гражданин США",
+        "identity": "secret"
+      },
+      "species": "Человек (мутировавший)",
+      "stats": {
+        "strength": 80,
+        "speed": 85,
+        "intelligence": 80,
+        "durability": 80,
+        "energyProjection": 50,
+        "fightingSkills": 75
+      },
+      "powerLevel": 6,
+      "popularity": 9.4,
+      "powers": [
+        "Паучьи способности",
+        "Невидимость",
+        "Веном-удар (электрический)",
+        "Лазание по стенам"
+      ],
+      "abilities": ["Изобретательность", "Ученик"],
+      "equipment": ["Костюм Человека-паука", "Веб-шутеры"],
+      "teams": ["Мстители", "Чемпионы"],
+      "affiliations": [],
+      "allies": ["Питер Паркер", "Гвен Стейси", "Ганке Ли"],
+      "enemies": {
+        "mainNemesis": ["Норман Озборн", "Провлер"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Ultimate Fallout #4 (2011)",
+        "firstMovie": "Человек-паук: Через вселенные (2018)",
+        "movies": ["Человек-паук: Через вселенные", "Человек-паук: Паутина вселенных"],
+        "tvShows": [],
+        "games": ["Marvel's Spider-Man: Miles Morales"],
+        "comicBooks": ["Ultimate Comics Spider-Man", "Miles Morales: Spider-Man"]
+      },
+      "moviesCount": 2,
+      "comicsCount": 150,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": [],
+        "parents": ["Джефферсон Дэвис", "Рио Моралес"],
+        "otherRelatives": ["Аарон Дэвис (дядя)"]
+      },
+      "description": "Подросток из Альтернативной вселенной, получивший паучьи способности и ставший новым Человеком-пауком.",
+      "fullDescription": "Майлз Моралес получил свои силы после укуса паука, созданного Норманом Озборном. После смерти Питера Паркера в его вселенной он взял на себя роль Человека-паука.",
+      "quote": "Я просто хочу помочь.",
+      "colorScheme": { "primary": "#1a1a1a", "secondary": "#e23636", "accent": "#00ffff" },
+      "social": { "officialSite": "https://marvel.com/characters/spider-man-miles-morales" },
+      "alternateVersions": [],
+      "rating": 4.8
+    },
+    {
+      "id": "225",
+      "slug": "kate-bishop",
+      "name": "Кейт Бишоп",
+      "realName": "Кэтрин Элизабет Бишоп",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 22,
+      "birthDate": "2001-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'5\" (165 см)",
+        "weight": "125 lbs (57 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Чёрные"
+      },
+      "gender": "female",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Нью-Йорк, США",
+        "citizenship": "Гражданка США",
+        "identity": "public"
+      },
+      "species": "Человек",
+      "stats": {
+        "strength": 50,
+        "speed": 60,
+        "intelligence": 75,
+        "durability": 55,
+        "energyProjection": 10,
+        "fightingSkills": 90
+      },
+      "powerLevel": 4,
+      "popularity": 8.7,
+      "powers": [],
+      "abilities": ["Стрельба из лука", "Фехтование", "Боевые искусства"],
+      "equipment": ["Лук и стрелы", "Мечи"],
+      "teams": ["Мстители", "Молодые Мстители"],
+      "affiliations": [],
+      "allies": ["Клинт Бартон", "Америка Чавес"],
+      "enemies": {
+        "mainNemesis": [],
+        "otherVillains": ["Мадам Маска"]
+      },
+      "appearances": {
+        "firstComic": "Young Avengers #1 (2005)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": ["Соколиный глаз"],
+        "games": [],
+        "comicBooks": ["Hawkeye", "Young Avengers"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 80,
+      "family": {
+        "maritalStatus": "Не замужем",
+        "spouse": "",
+        "children": [],
+        "parents": ["Дерек Бишоп", "Элеонора Бишоп"],
+        "otherRelatives": ["Сьюзен Бишоп (сестра)"]
+      },
+      "description": "Молодая лучница, фанатка Соколиного глаза, которая стала его ученицей и преемницей.",
+      "fullDescription": "Кейт Бишоп — дочь богатых родителей, которая после нападения на её семью обучилась боевым искусствам и стрельбе из лука. Она взяла имя Соколиного глаза и присоединилась к Молодым Мстителям.",
+      "quote": "Я — Соколиный глаз.",
+      "colorScheme": { "primary": "#8b00ff", "secondary": "#2c2c2c", "accent": "#c0c0c0" },
+      "social": { "officialSite": "https://marvel.com/characters/hawkeye-kate-bishop" },
+      "alternateVersions": [],
+      "rating": 4.4
+    },
+    {
+      "id": "226",
+      "slug": "yondu-udonta",
+      "name": "Йонду Удонта",
+      "realName": "Йонду Удонта",
+      "isAlive": false,
+      "status": "deceased",
+      "causeOfDeath": "Пожертвовал собой, спасая Питера Квилла",
+      "age": 60,
+      "birthDate": "1960-01-01",
+      "deathDate": "2017-01-01",
+      "gallery": [],
+      "physical": {
+        "height": "6'4\" (193 см)",
+        "weight": "220 lbs (100 кг)",
+        "eyeColor": "Голубые",
+        "hairColor": "Седые"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Планета Сентинор",
+        "citizenship": "Кри",
+        "identity": "public"
+      },
+      "species": "Кри",
+      "stats": {
+        "strength": 70,
+        "speed": 65,
+        "intelligence": 75,
+        "durability": 70,
+        "energyProjection": 40,
+        "fightingSkills": 85
+      },
+      "powerLevel": 6,
+      "popularity": 8.9,
+      "powers": ["Телекинез (стрела Йонду)", "Продлённая жизнь"],
+      "abilities": ["Пилот", "Лидер", "Стратег"],
+      "equipment": ["Стрела Йонду", "Космический корабль"],
+      "teams": ["Разрушители", "Стражи Галактики (почетный)"],
+      "affiliations": [],
+      "allies": ["Звёздный Лорд", "Ракета", "Грут"],
+      "enemies": {
+        "mainNemesis": ["Крайний", "Айша"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Marvel Preview #4 (1976)",
+        "firstMovie": "Стражи Галактики (2014)",
+        "movies": ["Стражи Галактики", "Стражи Галактики 2"],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Guardians of the Galaxy", "Yondu"]
+      },
+      "moviesCount": 2,
+      "comicsCount": 40,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": ["Питер Квилл (приёмный)"],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Космический охотник за головами, лидер Разрушителей, вырастивший Питера Квилла.",
+      "fullDescription": "Йонду был членом Стражей Галактики в прошлом, затем стал охотником за головами. Он украл маленького Питера Квилла и воспитал его, в итоге пожертвовав собой ради него.",
+      "quote": "Я горжусь тем, что был отцом тебе, мальчик.",
+      "colorScheme": { "primary": "#1a1a1a", "secondary": "#2c2c2c", "accent": "#8b0000" },
+      "social": { "officialSite": "https://marvel.com/characters/yondu" },
+      "alternateVersions": [],
+      "rating": 4.7
+    },
+    {
+      "id": "227",
+      "slug": "dormammu",
+      "name": "Дормамму",
+      "realName": "Дормамму",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 10000,
+      "birthDate": "8000-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "Изменчив (обычно более 10 футов)",
+        "weight": "Изменчив",
+        "eyeColor": "Горящие огнём",
+        "hairColor": "Нет"
+      },
+      "gender": "other",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Тёмное измерение",
+        "citizenship": "Правитель Тёмного измерения",
+        "identity": "public"
+      },
+      "species": "Демон / Правитель измерения",
+      "stats": {
+        "strength": 100,
+        "speed": 90,
+        "intelligence": 90,
+        "durability": 100,
+        "energyProjection": 100,
+        "fightingSkills": 80
+      },
+      "powerLevel": 10,
+      "popularity": 9.1,
+      "powers": ["Бессмертие", "Манипуляция реальностью", "Манипуляция энергией"],
+      "abilities": [],
+      "equipment": [],
+      "teams": [],
+      "affiliations": [],
+      "allies": [],
+      "enemies": {
+        "mainNemesis": ["Доктор Стрэндж"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Strange Tales #126 (1964)",
+        "firstMovie": "Доктор Стрэндж (2016)",
+        "movies": ["Доктор Стрэндж"],
+        "tvShows": [],
+        "games": ["Marvel vs. Capcom"],
+        "comicBooks": ["Doctor Strange: The Oath"]
+      },
+      "moviesCount": 1,
+      "comicsCount": 150,
+      "family": {
+        "maritalStatus": "Не применимо",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Правитель Тёмного измерения, один из самых могущественных демонов в мультивселенной.",
+      "fullDescription": "Дормамму — бессмертное космическое существо, которое стремится поглотить все измерения. Он — главный враг Доктора Стрэнджа.",
+      "quote": "Дормамму пришёл!",
+      "colorScheme": { "primary": "#8b0000", "secondary": "#2c2c2c", "accent": "#ff4500" },
+      "social": { "officialSite": "https://marvel.com/characters/dormammu" },
+      "alternateVersions": [],
+      "rating": 4.7
+    },
+    {
+      "id": "228",
+      "slug": "mary-jane-watson",
+      "name": "Мэри Джейн Уотсон",
+      "realName": "Мэри Джейн Уотсон",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 25,
+      "birthDate": "1998-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'7\" (170 см)",
+        "weight": "130 lbs (59 кг)",
+        "eyeColor": "Зелёные",
+        "hairColor": "Рыжие"
+      },
+      "gender": "female",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Нью-Йорк, США",
+        "citizenship": "Гражданка США",
+        "identity": "public"
+      },
+      "species": "Человек",
+      "stats": {
+        "strength": 40,
+        "speed": 45,
+        "intelligence": 70,
+        "durability": 45,
+        "energyProjection": 10,
+        "fightingSkills": 30
+      },
+      "powerLevel": 1,
+      "popularity": 8.9,
+      "powers": [],
+      "abilities": ["Актриса", "Модель", "Журналист"],
+      "equipment": [],
+      "teams": [],
+      "affiliations": [],
+      "allies": ["Питер Паркер", "Тётя Мэй"],
+      "enemies": {
+        "mainNemesis": [],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "The Amazing Spider-Man #25 (1965)",
+        "firstMovie": "Человек-паук (2002)",
+        "movies": [
+          "Человек-паук",
+          "Человек-паук 2",
+          "Человек-паук 3",
+          "Человек-паук: Нет пути домой"
+        ],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["The Amazing Spider-Man"]
+      },
+      "moviesCount": 4,
+      "comicsCount": 200,
+      "family": {
+        "maritalStatus": "Не замужем",
+        "spouse": "",
+        "children": [],
+        "parents": ["Филип Уотсон", "Мэдлин Уотсон"],
+        "otherRelatives": ["Гейл Уотсон (сестра)"]
+      },
+      "description": "Возлюбленная Питера Паркера, известная своей рыжей шевелюрой и сложной личной жизнью.",
+      "fullDescription": "Мэри Джейн Уотсон — одна из самых важных фигур в жизни Питера Паркера. Она прошла путь от модели до актрисы и журналистки, неоднократно становясь опорой для Человека-паука.",
+      "quote": "Тигр, ты попал.",
+      "colorScheme": { "primary": "#e23636", "secondary": "#1a1a1a", "accent": "#ffffff" },
+      "social": { "officialSite": "https://marvel.com/characters/mary-jane-watson" },
+      "alternateVersions": [],
+      "rating": 4.6
+    },
+    {
+      "id": "229",
+      "slug": "namor",
+      "name": "Нэмор",
+      "realName": "Нэмор Маккензи",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 100,
+      "birthDate": "1920-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "6'2\" (188 см)",
+        "weight": "280 lbs (127 кг)",
+        "eyeColor": "Голубые",
+        "hairColor": "Чёрные"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Атлантида",
+        "citizenship": "Атлант",
+        "identity": "public"
+      },
+      "species": "Гибрид человека и атланта",
+      "stats": {
+        "strength": 90,
+        "speed": 85,
+        "intelligence": 75,
+        "durability": 85,
+        "energyProjection": 20,
+        "fightingSkills": 85
+      },
+      "powerLevel": 8,
+      "popularity": 8.3,
+      "powers": ["Сверхсила", "Полёт", "Дыхание под водой", "Долголетие"],
+      "abilities": ["Лидер", "Стратег"],
+      "equipment": ["Трезубец"],
+      "teams": ["Иллюминаты", "Защитники", "Мстители (иногда)"],
+      "affiliations": ["Атлантида"],
+      "allies": ["Капитан Америка (иногда)", "Фантастическая четвёрка (иногда)"],
+      "enemies": {
+        "mainNemesis": ["Человек-факел (Джонни Шторм)", "Чёрная пантера"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Marvel Comics #1 (1939)",
+        "firstMovie": "Чёрная пантера: Ваканда навеки (2022)",
+        "movies": ["Чёрная пантера: Ваканда навеки"],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Sub-Mariner", "Namor"]
+      },
+      "moviesCount": 1,
+      "comicsCount": 300,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": [],
+        "parents": ["Фен (отец, атлант)", "Жаклин Маккензи (мать, человек)"],
+        "otherRelatives": []
+      },
+      "description": "Правитель Атлантиды, один из старейших героев Marvel, известный своим высокомерием и силой.",
+      "fullDescription": "Нэмор — мутант, рождённый от союза атланта и человека. Он является королём Атлантиды и часто конфликтует с наземным миром, но иногда сражается на стороне героев.",
+      "quote": "Император повелевает!",
+      "colorScheme": { "primary": "#006400", "secondary": "#1a1a1a", "accent": "#ffd700" },
+      "social": { "officialSite": "https://marvel.com/characters/namor" },
+      "alternateVersions": [],
+      "rating": 4.3
+    },
+    {
+      "id": "230",
+      "slug": "medusa",
+      "name": "Медуза",
+      "realName": "Медуза Амакуин",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 35,
+      "birthDate": "1988-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'9\" (175 см)",
+        "weight": "130 lbs (59 кг)",
+        "eyeColor": "Зеленые",
+        "hairColor": "Рыжие"
+      },
+      "gender": "female",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Аттилан (Луна)",
+        "citizenship": "Нелюди",
+        "identity": "public"
+      },
+      "species": "Нелюди",
+      "stats": {
+        "strength": 60,
+        "speed": 65,
+        "intelligence": 80,
+        "durability": 70,
+        "energyProjection": 20,
+        "fightingSkills": 80
+      },
+      "powerLevel": 6,
+      "popularity": 7.8,
+      "powers": ["Управление волосами", "Сверхсила волос"],
+      "abilities": ["Лидерство"],
+      "equipment": [],
+      "teams": ["Нелюди", "Королевская семья нелюдей"],
+      "affiliations": [],
+      "allies": ["Чёрный Гром", "Кристалл", "Горгон"],
+      "enemies": {
+        "mainNemesis": ["Максимус"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Fantastic Four #36 (1965)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Inhumans", "Royal Family"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 100,
+      "family": {
+        "maritalStatus": "Замужем",
+        "spouse": "Чёрный Гром",
+        "children": ["Ахур"],
+        "parents": [],
+        "otherRelatives": ["Кристалл (сестра)"]
+      },
+      "description": "Королева Нелюдей, управляющая своими волосами как оружием.",
+      "fullDescription": "Медуза — верная королева аттиланов. Её волосы могут выдерживать огромный вес и использоваться в бою.",
+      "quote": "Мы — Нелюди.",
+      "colorScheme": { "primary": "#8b0000", "secondary": "#1a1a1a", "accent": "#ffd700" },
+      "social": { "officialSite": "https://marvel.com/characters/medusa" },
+      "alternateVersions": [],
+      "rating": 4.2
+    },
+    {
+      "id": "231",
+      "slug": "crystal",
+      "name": "Кристалл",
+      "realName": "Кристалл Амакуин",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 28,
+      "birthDate": "1995-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'7\" (170 см)",
+        "weight": "120 lbs (54 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Чёрные"
+      },
+      "gender": "female",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Аттилан (Луна)",
+        "citizenship": "Нелюди",
+        "identity": "public"
+      },
+      "species": "Нелюди",
+      "stats": {
+        "strength": 50,
+        "speed": 60,
+        "intelligence": 70,
+        "durability": 60,
+        "energyProjection": 90,
+        "fightingSkills": 65
+      },
+      "powerLevel": 6,
+      "popularity": 7.5,
+      "powers": ["Контроль над стихиями (огонь, вода, земля, воздух)"],
+      "abilities": [],
+      "equipment": [],
+      "teams": ["Нелюди", "Фантастическая четвёрка (ассоциированный)"],
+      "affiliations": [],
+      "allies": ["Чёрный Гром", "Медуза", "Горгон", "Сью Шторм"],
+      "enemies": {
+        "mainNemesis": ["Максимус"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Fantastic Four #45 (1965)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Inhumans", "Fantastic Four"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 80,
+      "family": {
+        "maritalStatus": "Разведена",
+        "spouse": "Квестор (бывш.)",
+        "children": ["Люна"],
+        "parents": [],
+        "otherRelatives": ["Медуза (сестра)", "Чёрный Гром (зять)"]
+      },
+      "description": "Нелюдь, способная управлять четырьмя стихиями.",
+      "fullDescription": "Кристалл — член королевской семьи нелюдей. Она владеет силами природы и часто помогала Фантастической четвёрке.",
+      "quote": "",
+      "colorScheme": { "primary": "#00ced1", "secondary": "#ffffff", "accent": "#ffb6c1" },
+      "social": { "officialSite": "https://marvel.com/characters/crystal" },
+      "alternateVersions": [],
+      "rating": 4.0
+    },
+    {
+      "id": "232",
+      "slug": "gorgon",
+      "name": "Горгон",
+      "realName": "Горгон Петрагон",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 40,
+      "birthDate": "1983-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "6'4\" (193 см)",
+        "weight": "300 lbs (136 кг)",
+        "eyeColor": "Голубые",
+        "hairColor": "Чёрные"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Аттилан (Луна)",
+        "citizenship": "Нелюди",
+        "identity": "public"
+      },
+      "species": "Нелюди",
+      "stats": {
+        "strength": 85,
+        "speed": 70,
+        "intelligence": 70,
+        "durability": 85,
+        "energyProjection": 10,
+        "fightingSkills": 90
+      },
+      "powerLevel": 7,
+      "popularity": 7.2,
+      "powers": ["Сверхсила", "Мистические копыта"],
+      "abilities": ["Мастер боевых искусств"],
+      "equipment": ["Копьё"],
+      "teams": ["Королевская гвардия нелюдей"],
+      "affiliations": ["Нелюди"],
+      "allies": ["Чёрный Гром", "Медуза", "Карнак"],
+      "enemies": {
+        "mainNemesis": ["Максимус"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Fantastic Four #44 (1965)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Inhumans", "War of Kings"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 80
+    },
+    {
+      "id": "233",
+      "slug": "karnak",
+      "name": "Карнак",
+      "realName": "Карнак Мандер-Азур",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 38,
+      "birthDate": "1985-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "6'0\" (183 см)",
+        "weight": "190 lbs (86 кг)",
+        "eyeColor": "Голубые",
+        "hairColor": "Чёрные"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Аттилан (Луна)",
+        "citizenship": "Нелюди",
+        "identity": "public"
+      },
+      "species": "Нелюди",
+      "stats": {
+        "strength": 65,
+        "speed": 70,
+        "intelligence": 85,
+        "durability": 70,
+        "energyProjection": 10,
+        "fightingSkills": 95
+      },
+      "powerLevel": 6,
+      "popularity": 7.4,
+      "powers": ["Видение слабых мест", "Мастер боевых искусств"],
+      "abilities": ["Стратег", "Философ", "Аналитик"],
+      "equipment": ["Посох"],
+      "teams": ["Королевская гвардия нелюдей"],
+      "affiliations": ["Нелюди"],
+      "allies": ["Чёрный Гром", "Медуза", "Горгон"],
+      "enemies": {
+        "mainNemesis": ["Максимус"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Fantastic Four #45 (1965)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": ["Нелюди"],
+        "games": [],
+        "comicBooks": ["Inhumans", "Karnak"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 60,
+      "family": {
+        "maritalStatus": "Женат",
+        "spouse": "Дженезия",
+        "children": [],
+        "parents": [],
+        "otherRelatives": ["Чёрный Гром (кузен)", "Медуза (кузина)"]
+      },
+      "description": "Философ и воин Нелюдей, способный видеть слабые места в любой структуре.",
+      "fullDescription": "Карнак — кузен Чёрного Грома и один из лучших бойцов Нелюдей. Его сила позволяет находить изъяны в предметах и людях, что делает его смертоносным в бою.",
+      "quote": "Всё имеет свою трещину.",
+      "colorScheme": { "primary": "#8b4513", "secondary": "#1a1a1a", "accent": "#c0c0c0" },
+      "social": { "officialSite": "https://marvel.com/characters/karnak" },
+      "alternateVersions": [],
+      "rating": 4.1
+    },
+    {
+      "id": "234",
+      "slug": "black-bolt",
+      "name": "Чёрный Гром",
+      "realName": "Блэкагар Болтагон",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 45,
+      "birthDate": "1978-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "6'2\" (188 см)",
+        "weight": "200 lbs (91 кг)",
+        "eyeColor": "Голубые",
+        "hairColor": "Чёрные"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Аттилан (Луна)",
+        "citizenship": "Нелюди",
+        "identity": "public"
+      },
+      "species": "Нелюди",
+      "stats": {
+        "strength": 70,
+        "speed": 65,
+        "intelligence": 85,
+        "durability": 75,
+        "energyProjection": 100,
+        "fightingSkills": 80
+      },
+      "powerLevel": 8,
+      "popularity": 8.0,
+      "powers": ["Разрушительный голос (электро-звуковые волны)", "Сверхсила"],
+      "abilities": ["Король", "Стратег", "Немой (обычно)"],
+      "equipment": ["Корона", "Настройщик звука"],
+      "teams": ["Нелюди", "Иллюминаты"],
+      "affiliations": ["Аттилан"],
+      "allies": ["Медуза", "Карнак", "Горгон"],
+      "enemies": {
+        "mainNemesis": ["Максимус"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Fantastic Four #45 (1965)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": ["Нелюди"],
+        "games": [],
+        "comicBooks": ["Inhumans", "War of Kings"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 100,
+      "family": {
+        "maritalStatus": "Женат",
+        "spouse": "Медуза",
+        "children": ["Ахур"],
+        "parents": [],
+        "otherRelatives": ["Карнак (кузен)", "Максимус (брат)"]
+      },
+      "description": "Король Нелюдей, чей голос способен разрушать целые города.",
+      "fullDescription": "Чёрный Гром — немой правитель Аттилана. Его голос обладает разрушительной силой, поэтому он общается через жесты или специальные устройства.",
+      "quote": "",
+      "colorScheme": { "primary": "#1a1a1a", "secondary": "#2c2c2c", "accent": "#00ced1" },
+      "social": { "officialSite": "https://marvel.com/characters/black-bolt" },
+      "alternateVersions": [],
+      "rating": 4.5
+    },
+    {
+      "id": "235",
+      "slug": "maximus",
+      "name": "Максимус",
+      "realName": "Максимус Болтагон",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 40,
+      "birthDate": "1983-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'11\" (180 см)",
+        "weight": "180 lbs (82 кг)",
+        "eyeColor": "Голубые",
+        "hairColor": "Чёрные"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Аттилан (Луна)",
+        "citizenship": "Нелюди",
+        "identity": "public"
+      },
+      "species": "Нелюди",
+      "stats": {
+        "strength": 50,
+        "speed": 55,
+        "intelligence": 95,
+        "durability": 55,
+        "energyProjection": 30,
+        "fightingSkills": 60
+      },
+      "powerLevel": 5,
+      "popularity": 7.3,
+      "powers": ["Гениальный интеллект", "Контроль над разумом (ограниченно)"],
+      "abilities": ["Изобретатель", "Манипулятор", "Стратег"],
+      "equipment": ["Различные изобретения"],
+      "teams": [],
+      "affiliations": ["Аттилан (иногда)"],
+      "allies": [],
+      "enemies": {
+        "mainNemesis": ["Чёрный Гром", "Медуза"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Fantastic Four #47 (1966)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": ["Нелюди"],
+        "games": [],
+        "comicBooks": ["Inhumans"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 60,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": ["Чёрный Гром (брат)", "Медуза (невестка)"]
+      },
+      "description": "Безумный гений Нелюдей, брат Чёрного Грома, постоянно строящий козни против королевской семьи.",
+      "fullDescription": "Максимус — младший брат Чёрного Грома. Он завидует власти брата и неоднократно пытался захватить трон Аттилана.",
+      "quote": "Я — Максимус!",
+      "colorScheme": { "primary": "#2c2c2c", "secondary": "#1a1a1a", "accent": "#00ced1" },
+      "social": { "officialSite": "https://marvel.com/characters/maximus" },
+      "alternateVersions": [],
+      "rating": 4.0
+    },
+    {
+      "id": "236",
+      "slug": "lockjaw",
+      "name": "Локджо",
+      "realName": "Локджо",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 10,
+      "birthDate": "2013-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "3'0\" (91 см)",
+        "weight": "300 lbs (136 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Коричневая шерсть"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Аттилан (Луна)",
+        "citizenship": "Нелюди (питомец)",
+        "identity": "public"
+      },
+      "species": "Нелюди (собака)",
+      "stats": {
+        "strength": 65,
+        "speed": 70,
+        "intelligence": 60,
+        "durability": 70,
+        "energyProjection": 20,
+        "fightingSkills": 40
+      },
+      "powerLevel": 4,
+      "popularity": 8.6,
+      "powers": ["Телепортация", "Сверхпрочность"],
+      "abilities": ["Верный компаньон"],
+      "equipment": [],
+      "teams": ["Королевская семья нелюдей"],
+      "affiliations": ["Аттилан"],
+      "allies": ["Медуза", "Кристалл", "Чёрный Гром"],
+      "enemies": {
+        "mainNemesis": ["Максимус"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Fantastic Four #45 (1965)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": ["Нелюди"],
+        "games": [],
+        "comicBooks": ["Inhumans", "Lockjaw"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 40,
+      "family": {
+        "maritalStatus": "Не применимо",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Телепортирующийся бульдог, верный питомец и защитник королевской семьи Нелюдей.",
+      "fullDescription": "Локджо — необычная собака Нелюдей, способная телепортировать себя и других на большие расстояния. Он верный друг Кристалл и всей королевской семьи.",
+      "quote": "Гав!",
+      "colorScheme": { "primary": "#8b4513", "secondary": "#2c2c2c", "accent": "#00ced1" },
+      "social": { "officialSite": "https://marvel.com/characters/lockjaw" },
+      "alternateVersions": [],
+      "rating": 4.7
+    },
+    {
+      "id": "237",
+      "slug": "cosmo",
+      "name": "Космо",
+      "realName": "Космо",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 15,
+      "birthDate": "2008-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "2'6\" (76 см)",
+        "weight": "90 lbs (41 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Коричневая шерсть"
+      },
+      "gender": "female",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "СССР (космическая программа)",
+        "citizenship": "Не применимо",
+        "identity": "public"
+      },
+      "species": "Собака (телепат)",
+      "stats": {
+        "strength": 40,
+        "speed": 60,
+        "intelligence": 85,
+        "durability": 45,
+        "energyProjection": 50,
+        "fightingSkills": 30
+      },
+      "powerLevel": 4,
+      "popularity": 9.0,
+      "powers": ["Телепатия", "Телекинез", "Космическая осведомлённость"],
+      "abilities": ["Страж Знаний", "Лидер"],
+      "equipment": [],
+      "teams": ["Стражи Галактики (союзник)"],
+      "affiliations": ["Знание"],
+      "allies": ["Ракета", "Грут", "Звёздный Лорд"],
+      "enemies": {
+        "mainNemesis": [],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Nova #8 (2008)",
+        "firstMovie": "Стражи Галактики (2014) (камео)",
+        "movies": ["Стражи Галактики", "Стражи Галактики 2", "Стражи Галактики 3"],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Guardians of the Galaxy", "Nova"]
+      },
+      "moviesCount": 3,
+      "comicsCount": 30,
+      "family": {
+        "maritalStatus": "Не применимо",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Телепатическая собака-космонавт, страж космической станции «Знание».",
+      "fullDescription": "Космо — собака, запущенная в космос Советским Союзом. Она обрела телепатические способности и стала лидером сообщества в отрезанном от мира космическом городе.",
+      "quote": "Хорошая собака.",
+      "colorScheme": { "primary": "#8b4513", "secondary": "#2c2c2c", "accent": "#ffd700" },
+      "social": { "officialSite": "https://marvel.com/characters/cosmo" },
+      "alternateVersions": [],
+      "rating": 4.8
+    },
+    {
+      "id": "238",
+      "slug": "tippy-toe",
+      "name": "Типпи Той",
+      "realName": "Типпи Той",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 5,
+      "birthDate": "2018-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "1'0\" (30 см)",
+        "weight": "10 lbs (5 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Рыжая шерсть"
+      },
+      "gender": "female",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Неизвестно",
+        "citizenship": "Не применимо",
+        "identity": "public"
+      },
+      "species": "Собака (йоркширский терьер)",
+      "stats": {
+        "strength": 10,
+        "speed": 30,
+        "intelligence": 50,
+        "durability": 15,
+        "energyProjection": 0,
+        "fightingSkills": 5
+      },
+      "powerLevel": 1,
+      "popularity": 7.5,
+      "powers": [],
+      "abilities": ["Верный компаньон"],
+      "equipment": [],
+      "teams": [],
+      "affiliations": [],
+      "allies": ["Джессика Джонс", "Люк Кейдж"],
+      "enemies": {
+        "mainNemesis": [],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Alias #1 (2001)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": ["Джессика Джонс"],
+        "games": [],
+        "comicBooks": ["Alias"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 20,
+      "family": {
+        "maritalStatus": "Не применимо",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Маленькая собачка Джессики Джонс, ставшая её верным другом.",
+      "fullDescription": "Типпи Той — йоркширский терьер, который живёт с Джессикой Джонс. Несмотря на свои размеры, она играет важную роль в жизни героини.",
+      "quote": "Гав-гав!",
+      "colorScheme": { "primary": "#daa520", "secondary": "#2c2c2c", "accent": "#8b4513" },
+      "social": {},
+      "alternateVersions": [],
+      "rating": 3.9
+    },
+    {
+      "id": "239",
+      "slug": "dum-dum-dugan",
+      "name": "Дум-Дум Дуган",
+      "realName": "Тимоти Алоизиус Кэдвалладер Дуган",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 55,
+      "birthDate": "1968-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'10\" (178 см)",
+        "weight": "200 lbs (91 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Седые"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Нью-Йорк, США",
+        "citizenship": "Гражданин США",
+        "identity": "public"
+      },
+      "species": "Человек",
+      "stats": {
+        "strength": 55,
+        "speed": 50,
+        "intelligence": 70,
+        "durability": 60,
+        "energyProjection": 10,
+        "fightingSkills": 80
+      },
+      "powerLevel": 3,
+      "popularity": 6.5,
+      "powers": [],
+      "abilities": ["Стратег", "Лидер", "Огневая подготовка"],
+      "equipment": ["Сигара", "Огнестрельное оружие"],
+      "teams": ["Щ.И.Т.", "Кричащие коммандос"],
+      "affiliations": [],
+      "allies": ["Ник Фьюри", "Капитан Америка"],
+      "enemies": {
+        "mainNemesis": ["Гидра"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Sgt. Fury and his Howling Commandos #1 (1963)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": ["Агенты Щ.И.Т."],
+        "games": [],
+        "comicBooks": ["Sgt. Fury", "Nick Fury"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 80,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Верный соратник Ника Фьюри, один из основателей Кричащих коммандос.",
+      "fullDescription": "Дум-Дум Дуган — ветеран войны и лучший друг Ника Фьюри. Он служил в Кричащих коммандос и позже стал высокопоставленным агентом Щ.И.Т.а.",
+      "quote": "Сэр, да, сэр!",
+      "colorScheme": { "primary": "#1d4289", "secondary": "#2c2c2c", "accent": "#c0c0c0" },
+      "social": {},
+      "alternateVersions": [],
+      "rating": 3.8
+    },
+    {
+      "id": "240",
+      "slug": "gabriel-jones",
+      "name": "Светоч",
+      "realName": "Габриэль Джонс",
+      "isAlive": false,
+      "status": "deceased",
+      "causeOfDeath": "Убит в бою",
+      "age": 35,
+      "birthDate": "1988-01-01",
+      "deathDate": "2023-01-01",
+      "gallery": [],
+      "physical": {
+        "height": "6'0\" (183 см)",
+        "weight": "180 lbs (82 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Чёрные"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Неизвестно",
+        "citizenship": "Гражданин США",
+        "identity": "public"
+      },
+      "species": "Человек (мутировавший)",
+      "stats": {
+        "strength": 60,
+        "speed": 65,
+        "intelligence": 60,
+        "durability": 60,
+        "energyProjection": 80,
+        "fightingSkills": 50
+      },
+      "powerLevel": 5,
+      "popularity": 5.5,
+      "powers": ["Световая энергия", "Полёт"],
+      "abilities": [],
+      "equipment": [],
+      "teams": [],
+      "affiliations": [],
+      "allies": ["Джессика Джонс"],
+      "enemies": {
+        "mainNemesis": ["Киллгрэйв"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "Alias #1 (2001)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": ["Джессика Джонс"],
+        "games": [],
+        "comicBooks": ["Alias"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 10,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": ["Джессика Джонс (сестра)"]
+      },
+      "description": "Брат Джессики Джонс, обладавший силой света.",
+      "fullDescription": "Габриэль Джонс был старшим братом Джессики. Он погиб, защищая её, и его смерть стала одной из главных травм героини.",
+      "quote": "",
+      "colorScheme": { "primary": "#ffd700", "secondary": "#2c2c2c", "accent": "#ffffff" },
+      "social": {},
+      "alternateVersions": [],
+      "rating": 3.7
+    },
+    {
+      "id": "241",
+      "slug": "human-torch",
+      "name": "Человек-факел",
+      "realName": "Джонатан «Джонни» Шторм",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 30,
+      "birthDate": "1993-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'10\" (178 см)",
+        "weight": "170 lbs (77 кг)",
+        "eyeColor": "Голубые",
+        "hairColor": "Светлые"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Нью-Йорк, США",
+        "citizenship": "Гражданин США",
+        "identity": "public"
+      },
+      "species": "Человек (мутировавший)",
+      "stats": {
+        "strength": 60,
+        "speed": 70,
+        "intelligence": 65,
+        "durability": 70,
+        "energyProjection": 95,
+        "fightingSkills": 60
+      },
+      "powerLevel": 7,
+      "popularity": 8.2,
+      "powers": ["Контроль огня", "Полёт", "Пирокинез"],
+      "abilities": ["Гонщик", "Механик"],
+      "equipment": ["Костюм Фантастической четвёрки"],
+      "teams": ["Фантастическая четвёрка", "Мстители (иногда)"],
+      "affiliations": [],
+      "allies": ["Мистер Фантастик", "Существо", "Невидимая леди"],
+      "enemies": {
+        "mainNemesis": ["Доктор Дум", "Нэмор"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "The Fantastic Four #1 (1961)",
+        "firstMovie": "Фантастическая четвёрка (2005)",
+        "movies": [
+          "Фантастическая четвёрка (2005)",
+          "Фантастическая четвёрка: Вторжение Серебряного сёрфера",
+          "Фантастическая четвёрка (2015)"
+        ],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Fantastic Four"]
+      },
+      "moviesCount": 3,
+      "comicsCount": 400,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": [],
+        "parents": ["Франклин Шторм", "Мэри Шторм"],
+        "otherRelatives": ["Сью Шторм (сестра)", "Мистер Фантастик (зять)"]
+      },
+      "description": "Горячий и импульсивный член Фантастической четвёрки, способный превращаться в огонь.",
+      "fullDescription": "Джонни Шторм получил способность к пирокинезу после облучения космическими лучами. Он — «пламя» команды Фантастической четвёрки.",
+      "quote": "Огонь!",
+      "colorScheme": { "primary": "#ff4500", "secondary": "#1d4289", "accent": "#ffd700" },
+      "social": { "officialSite": "https://marvel.com/characters/human-torch" },
+      "alternateVersions": [],
+      "rating": 4.5
+    },
+    {
+      "id": "242",
+      "slug": "the-thing",
+      "name": "Существо",
+      "realName": "Бенджамин «Бен» Гримм",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 40,
+      "birthDate": "1983-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "6'0\" (183 см)",
+        "weight": "500 lbs (227 кг)",
+        "eyeColor": "Голубые",
+        "hairColor": "Нет (каменная кожа)"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Нью-Йорк, США",
+        "citizenship": "Гражданин США",
+        "identity": "public"
+      },
+      "species": "Человек (мутировавший)",
+      "stats": {
+        "strength": 95,
+        "speed": 55,
+        "intelligence": 65,
+        "durability": 100,
+        "energyProjection": 10,
+        "fightingSkills": 80
+      },
+      "powerLevel": 8,
+      "popularity": 8.4,
+      "powers": ["Сверхсила", "Каменная кожа", "Повышенная выносливость"],
+      "abilities": ["Пилот", "Мастер боя"],
+      "equipment": ["Костюм Фантастической четвёрки"],
+      "teams": ["Фантастическая четвёрка", "Мстители (иногда)"],
+      "affiliations": [],
+      "allies": ["Мистер Фантастик", "Человек-факел", "Невидимая леди"],
+      "enemies": {
+        "mainNemesis": ["Доктор Дум", "Кроссбоунс"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "The Fantastic Four #1 (1961)",
+        "firstMovie": "Фантастическая четвёрка (2005)",
+        "movies": [
+          "Фантастическая четвёрка (2005)",
+          "Фантастическая четвёрка: Вторжение Серебряного сёрфера",
+          "Фантастическая четвёрка (2015)"
+        ],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Fantastic Four"]
+      },
+      "moviesCount": 3,
+      "comicsCount": 450,
+      "family": {
+        "maritalStatus": "Женат",
+        "spouse": "Алисия Мастерс",
+        "children": [],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Сильный и добродушный член Фантастической четвёрки с каменной кожей.",
+      "fullDescription": "Бен Гримм был пилотом, который после облучения космическими лучами превратился в каменное существо. Несмотря на внешность, он остался добрым и верным другом.",
+      "quote": "Кулак — это моё всё!",
+      "colorScheme": { "primary": "#ff8c00", "secondary": "#1d4289", "accent": "#c0c0c0" },
+      "social": { "officialSite": "https://marvel.com/characters/the-thing" },
+      "alternateVersions": [],
+      "rating": 4.6
+    },
+    {
+      "id": "243",
+      "slug": "invisible-woman",
+      "name": "Невидимая леди",
+      "realName": "Сьюзан «Сью» Шторм-Ричардс",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 38,
+      "birthDate": "1985-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'6\" (168 см)",
+        "weight": "120 lbs (54 кг)",
+        "eyeColor": "Голубые",
+        "hairColor": "Светлые"
+      },
+      "gender": "female",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Нью-Йорк, США",
+        "citizenship": "Гражданка США",
+        "identity": "public"
+      },
+      "species": "Человек (мутировавшая)",
+      "stats": {
+        "strength": 50,
+        "speed": 55,
+        "intelligence": 80,
+        "durability": 65,
+        "energyProjection": 85,
+        "fightingSkills": 65
+      },
+      "powerLevel": 6,
+      "popularity": 8.3,
+      "powers": ["Невидимость", "Силовые поля"],
+      "abilities": ["Стратег", "Дипломат"],
+      "equipment": ["Костюм Фантастической четвёрки"],
+      "teams": ["Фантастическая четвёрка", "Мстители (иногда)"],
+      "affiliations": [],
+      "allies": ["Мистер Фантастик", "Человек-факел", "Существо"],
+      "enemies": {
+        "mainNemesis": ["Доктор Дум"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "The Fantastic Four #1 (1961)",
+        "firstMovie": "Фантастическая четвёрка (2005)",
+        "movies": [
+          "Фантастическая четвёрка (2005)",
+          "Фантастическая четвёрка: Вторжение Серебряного сёрфера",
+          "Фантастическая четвёрка (2015)"
+        ],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Fantastic Four"]
+      },
+      "moviesCount": 3,
+      "comicsCount": 400,
+      "family": {
+        "maritalStatus": "Замужем",
+        "spouse": "Рид Ричардс",
+        "children": ["Франклин Ричардс", "Валерия Ричардс"],
+        "parents": ["Франклин Шторм", "Мэри Шторм"],
+        "otherRelatives": ["Джонни Шторм (брат)"]
+      },
+      "description": "Сестра Человека-факела, жена Мистера Фантастика, обладающая силой невидимости.",
+      "fullDescription": "Сьюзан Шторм получила способность становиться невидимой и создавать силовые поля после космического облучения. Она — «сердце» Фантастической четвёрки.",
+      "quote": "Мы — семья.",
+      "colorScheme": { "primary": "#4169e1", "secondary": "#1d4289", "accent": "#c0c0c0" },
+      "social": { "officialSite": "https://marvel.com/characters/invisible-woman" },
+      "alternateVersions": [],
+      "rating": 4.6
+    },
+    {
+      "id": "244",
+      "slug": "silver-sable",
+      "name": "Серебряная Соболь",
+      "realName": "Сильвия Сэйбл Манфреди",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 35,
+      "birthDate": "1988-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'8\" (173 см)",
+        "weight": "130 lbs (59 кг)",
+        "eyeColor": "Голубые",
+        "hairColor": "Серебристые"
+      },
+      "gender": "female",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Нью-Йорк, США",
+        "citizenship": "Гражданка США",
+        "identity": "public"
+      },
+      "species": "Человек",
+      "stats": {
+        "strength": 55,
+        "speed": 65,
+        "intelligence": 75,
+        "durability": 55,
+        "energyProjection": 10,
+        "fightingSkills": 85
+      },
+      "powerLevel": 4,
+      "popularity": 7.2,
+      "powers": [],
+      "abilities": ["Вор", "Мастер боя", "Стратег"],
+      "equipment": ["Костюм", "Оружие"],
+      "teams": [],
+      "affiliations": ["Клан Манфреди"],
+      "allies": ["Человек-паук (иногда)", "Каратель (иногда)"],
+      "enemies": {
+        "mainNemesis": ["Кингпин"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "The Amazing Spider-Man #265 (1985)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Silver Sable"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 50,
+      "family": {
+        "maritalStatus": "Не замужем",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Лидер наёмников и охотница за головами, иногда союзница Человека-паука.",
+      "fullDescription": "Сильвия Манфреди — дочь лидера клана Манфреди. Она руководит отрядом «Дикая стая» и часто работает на правительство.",
+      "quote": "Я — Серебряная Соболь.",
+      "colorScheme": { "primary": "#c0c0c0", "secondary": "#2c2c2c", "accent": "#4169e1" },
+      "social": { "officialSite": "https://marvel.com/characters/silver-sable" },
+      "alternateVersions": [],
+      "rating": 4.1
+    },
+    {
+      "id": "245",
+      "slug": "black-cat",
+      "name": "Чёрная Кошка",
+      "realName": "Фелиция Харди",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 28,
+      "birthDate": "1995-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'7\" (170 см)",
+        "weight": "125 lbs (57 кг)",
+        "eyeColor": "Зелёные",
+        "hairColor": "Белые"
+      },
+      "gender": "female",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Квинс, Нью-Йорк, США",
+        "citizenship": "Гражданка США",
+        "identity": "public"
+      },
+      "species": "Человек (усиленная)",
+      "stats": {
+        "strength": 55,
+        "speed": 70,
+        "intelligence": 70,
+        "durability": 55,
+        "energyProjection": 10,
+        "fightingSkills": 80
+      },
+      "powerLevel": 4,
+      "popularity": 8.4,
+      "powers": ["Способность приносить неудачу"],
+      "abilities": ["Акробатика", "Вор", "Боевые искусства"],
+      "equipment": ["Когти", "Костюм"],
+      "teams": [],
+      "affiliations": [],
+      "allies": ["Человек-паук (иногда)", "Серебряная Соболь"],
+      "enemies": {
+        "mainNemesis": ["Кингпин"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "The Amazing Spider-Man #194 (1979)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Black Cat"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 100,
+      "family": {
+        "maritalStatus": "Не замужем",
+        "spouse": "",
+        "children": [],
+        "parents": ["Уолтер Харди (отец)"],
+        "otherRelatives": []
+      },
+      "description": "Воровка и авантюристка, бывшая возлюбленная Человека-паука.",
+      "fullDescription": "Фелиция Харди — дочь известного вора. Она получила способность приносить неудачу и стала известной воровкой, но иногда помогает Человеку-пауку.",
+      "quote": "Удача любит меня.",
+      "colorScheme": { "primary": "#1a1a1a", "secondary": "#c0c0c0", "accent": "#ffffff" },
+      "social": { "officialSite": "https://marvel.com/characters/black-cat" },
+      "alternateVersions": [],
+      "rating": 4.5
+    },
+    {
+      "id": "246",
+      "slug": "rhino",
+      "name": "Носорог",
+      "realName": "Алексей Сицевич",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 45,
+      "birthDate": "1978-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "6'5\" (196 см)",
+        "weight": "710 lbs (322 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Лысый"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Россия",
+        "citizenship": "Гражданин России",
+        "identity": "public"
+      },
+      "species": "Человек (мутировавший)",
+      "stats": {
+        "strength": 90,
+        "speed": 55,
+        "intelligence": 40,
+        "durability": 95,
+        "energyProjection": 10,
+        "fightingSkills": 60
+      },
+      "powerLevel": 7,
+      "popularity": 7.3,
+      "powers": ["Сверхсила", "Высокая прочность", "Рог"],
+      "abilities": [],
+      "equipment": ["Костюм носорога"],
+      "teams": ["Шестёрка злодеев"],
+      "affiliations": [],
+      "allies": ["Стервятник", "Мистерио"],
+      "enemies": {
+        "mainNemesis": ["Человек-паук"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "The Amazing Spider-Man #41 (1966)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Spider-Man"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 80,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Громила в костюме носорога, один из классических врагов Человека-паука.",
+      "fullDescription": "Алексей Сицевич был наёмником, который согласился на эксперимент, давший ему сверхпрочную кожу и рог. Теперь он — Носорог.",
+      "quote": "Я раздавлю тебя!",
+      "colorScheme": { "primary": "#808080", "secondary": "#2c2c2c", "accent": "#c0c0c0" },
+      "social": {},
+      "alternateVersions": [],
+      "rating": 3.9
+    },
+    {
+      "id": "247",
+      "slug": "scorpion",
+      "name": "Скорпион",
+      "realName": "Мак Гарган",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 40,
+      "birthDate": "1983-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "6'2\" (188 см)",
+        "weight": "220 lbs (100 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Рыжие"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Нью-Йорк, США",
+        "citizenship": "Гражданин США",
+        "identity": "public"
+      },
+      "species": "Человек (мутировавший)",
+      "stats": {
+        "strength": 80,
+        "speed": 65,
+        "intelligence": 55,
+        "durability": 80,
+        "energyProjection": 20,
+        "fightingSkills": 70
+      },
+      "powerLevel": 6,
+      "popularity": 7.0,
+      "powers": ["Сверхсила", "Хвост с ядом", "Прочный экзоскелет"],
+      "abilities": ["Наёмник"],
+      "equipment": ["Костюм Скорпиона"],
+      "teams": ["Шестёрка злодеев"],
+      "affiliations": [],
+      "allies": [],
+      "enemies": {
+        "mainNemesis": ["Человек-паук", "Джей Джона Джеймсон"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "The Amazing Spider-Man #20 (1965)",
+        "firstMovie": null,
+        "movies": [],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Spider-Man"]
+      },
+      "moviesCount": 0,
+      "comicsCount": 60,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Наёмник в костюме скорпиона, созданном Джоной Джеймсоном для борьбы с Человеком-пауком.",
+      "fullDescription": "Мак Гарган был частным детективом, который согласился на эксперимент Джеймсона. Он получил силы скорпиона, но сошёл с ума.",
+      "quote": "Я — Скорпион!",
+      "colorScheme": { "primary": "#2e8b57", "secondary": "#2c2c2c", "accent": "#ffd700" },
+      "social": {},
+      "alternateVersions": [],
+      "rating": 3.8
+    },
+    {
+      "id": "248",
+      "slug": "electro",
+      "name": "Электро",
+      "realName": "Максвелл «Макс» Диллон",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 35,
+      "birthDate": "1988-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "5'11\" (180 см)",
+        "weight": "165 lbs (75 кг)",
+        "eyeColor": "Голубые",
+        "hairColor": "Каштановые"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Нью-Йорк, США",
+        "citizenship": "Гражданин США",
+        "identity": "public"
+      },
+      "species": "Человек (мутировавший)",
+      "stats": {
+        "strength": 55,
+        "speed": 70,
+        "intelligence": 50,
+        "durability": 60,
+        "energyProjection": 95,
+        "fightingSkills": 50
+      },
+      "powerLevel": 6,
+      "popularity": 7.9,
+      "powers": [
+        "Контроль электричества",
+        "Электрические разряды",
+        "Полёт (по линиям электропередач)"
+      ],
+      "abilities": [],
+      "equipment": ["Костюм"],
+      "teams": ["Шестёрка злодеев", "Зловещая шестёрка"],
+      "affiliations": [],
+      "allies": ["Мистерио", "Стервятник"],
+      "enemies": {
+        "mainNemesis": ["Человек-паук"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "The Amazing Spider-Man #9 (1964)",
+        "firstMovie": "Новый Человек-паук 2 (2014)",
+        "movies": ["Новый Человек-паук 2", "Человек-паук: Нет пути домой"],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Spider-Man"]
+      },
+      "moviesCount": 2,
+      "comicsCount": 80,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Злодей, управляющий электричеством, один из старейших врагов Человека-паука.",
+      "fullDescription": "Макс Диллон работал электриком и попал в аварию с высоковольтными проводами. Он приобрёл способность управлять электричеством.",
+      "quote": "Я — Электро!",
+      "colorScheme": { "primary": "#ffd700", "secondary": "#2c2c2c", "accent": "#00ffff" },
+      "social": {},
+      "alternateVersions": [],
+      "rating": 4.0
+    },
+    {
+      "id": "249",
+      "slug": "kraven-the-hunter",
+      "name": "Крейвен-охотник",
+      "realName": "Сергей Николаевич Кравинов",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 50,
+      "birthDate": "1973-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "6'1\" (185 см)",
+        "weight": "200 lbs (91 кг)",
+        "eyeColor": "Карие",
+        "hairColor": "Чёрные"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Россия",
+        "citizenship": "Гражданин России",
+        "identity": "public"
+      },
+      "species": "Человек (усиленный)",
+      "stats": {
+        "strength": 70,
+        "speed": 75,
+        "intelligence": 70,
+        "durability": 65,
+        "energyProjection": 10,
+        "fightingSkills": 90
+      },
+      "powerLevel": 6,
+      "popularity": 8.1,
+      "powers": ["Усиленные чувства", "Замедленное старение"],
+      "abilities": ["Мастер охоты", "Мастер боя", "Следопыт"],
+      "equipment": ["Копьё", "Лук", "Яды"],
+      "teams": [],
+      "affiliations": [],
+      "allies": [],
+      "enemies": {
+        "mainNemesis": ["Человек-паук"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "The Amazing Spider-Man #15 (1964)",
+        "firstMovie": "Крейвен-охотник (2024)",
+        "movies": ["Крейвен-охотник"],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Kraven's Last Hunt"]
+      },
+      "moviesCount": 1,
+      "comicsCount": 100,
+      "family": {
+        "maritalStatus": "Женат",
+        "spouse": "Соня (умерла)",
+        "children": [],
+        "parents": ["Николай Кравинов (отец)"],
+        "otherRelatives": ["Дмитрий (сын)"]
+      },
+      "description": "Великий охотник, одержимый идеей победить Человека-паука.",
+      "fullDescription": "Сергей Кравинов — русский аристократ, который посвятил жизнь охоте на самых опасных существ. Он считает Человека-паука величайшей добычей.",
+      "quote": "Я — Крейвен-охотник!",
+      "colorScheme": { "primary": "#2c2c2c", "secondary": "#8b4513", "accent": "#ffd700" },
+      "social": { "officialSite": "https://marvel.com/characters/kraven-the-hunter" },
+      "alternateVersions": [],
+      "rating": 4.4
+    },
+    {
+      "id": "250",
+      "slug": "morbius",
+      "name": "Морбиус",
+      "realName": "Майкл Морбиус",
+      "isAlive": true,
+      "status": "alive",
+      "causeOfDeath": null,
+      "age": 45,
+      "birthDate": "1978-01-01",
+      "deathDate": null,
+      "gallery": [],
+      "physical": {
+        "height": "6'2\" (188 см)",
+        "weight": "185 lbs (84 кг)",
+        "eyeColor": "Красные",
+        "hairColor": "Черные"
+      },
+      "gender": "male",
+      "universe": "Earth-616",
+      "origin": {
+        "birthPlace": "Греция",
+        "citizenship": "Гражданин Греции",
+        "identity": "public"
+      },
+      "species": "Вампир",
+      "stats": {
+        "strength": 75,
+        "speed": 80,
+        "intelligence": 85,
+        "durability": 75,
+        "energyProjection": 20,
+        "fightingSkills": 80
+      },
+      "powerLevel": 6,
+      "popularity": 8.4,
+      "powers": ["Вампиризм", "Полёты", "Регенерация"],
+      "abilities": ["Учёный", "Эхолокация"],
+      "equipment": [],
+      "teams": [],
+      "affiliations": [],
+      "allies": [],
+      "enemies": {
+        "mainNemesis": ["Человек-паук"],
+        "otherVillains": []
+      },
+      "appearances": {
+        "firstComic": "The Amazing Spider-Man #101 (1971)",
+        "firstMovie": "Морбиус (2022)",
+        "movies": ["Морбиус"],
+        "tvShows": [],
+        "games": [],
+        "comicBooks": ["Morbius: The Living Vampire"]
+      },
+      "moviesCount": 1,
+      "comicsCount": 100,
+      "family": {
+        "maritalStatus": "Не женат",
+        "spouse": "",
+        "children": [],
+        "parents": [],
+        "otherRelatives": []
+      },
+      "description": "Учёный, превратившийся в живого вампира после неудачного эксперимента.",
+      "fullDescription": "Майкл Морбиус страдал от редкого заболевания крови. Он ввёл себе сыворотку из летучих мышей и стал вампиром.",
+      "quote": "Я — Морбиус.",
+      "colorScheme": { "primary": "#1a1a1a", "secondary": "#2c2c2c", "accent": "#8b0000" },
+      "social": { "officialSite": "https://marvel.com/characters/morbius" },
+      "alternateVersions": [],
+      "rating": 4.2
     }
   ]
 }
