@@ -35,21 +35,33 @@
 
 <template>
   <div class="flex flex-col gap-6">
-    <div class="flex gap-4 p-4">
-      <h1>{{ hero.name }}</h1>
+    <!-- Шапка профиля (полностью нейтральная) -->
+    <div class="flex flex-col gap-2 p-4">
+      <div class="flex gap-4 items-center">
+        <h1 class="text-3xl font-bold text-text-title">
+          {{ hero.name }}
+        </h1>
 
-      <Icon
-        :class="[
-          'text-4xl cursor-pointer! transition-colors',
-          is_favorite(hero.id) ? 'text-red-300' : 'text-text-placeholder',
-        ]"
-        :icon="
-          is_favorite(hero.id) ? 'material-symbols:favorite' : 'material-symbols:favorite-outline'
-        "
-        @click.prevent.stop="toggleFavorite(hero)"
+        <Icon
+          :class="[
+            'text-4xl cursor-pointer! transition-colors',
+            is_favorite(hero.id) ? 'text-red-300' : 'text-text-placeholder',
+          ]"
+          :icon="
+            is_favorite(hero.id) ? 'material-symbols:favorite' : 'material-symbols:favorite-outline'
+          "
+          @click.prevent.stop="toggleFavorite(hero)"
+        />
+      </div>
+
+      <!-- Единственный акцент: тонкая цветная линия под именем героя -->
+      <div
+        class="h-1 w-24 rounded-full"
+        :style="{ backgroundColor: hero.colorScheme?.primary || '#3b82f6' }"
       />
     </div>
 
+    <!-- Сетка карточек (все иконки и текст строго нейтральные) -->
     <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-6 gap-7 w-full mx-auto p-4">
       <div
         v-for="section in visibleSections"
@@ -60,7 +72,8 @@
         ]"
       >
         <h3 class="text-lg font-bold flex items-center gap-4 text-text-title">
-          <Icon :icon="section.icon" class="text-primary text-xl" />
+          <!-- Иконки снова стали стандартными (text-text-placeholder или text-primary) -->
+          <Icon :icon="section.icon" class="text-xl text-text-placeholder" />
           {{ section.title }}
         </h3>
 
@@ -71,9 +84,9 @@
             class="flex flex-col gap-1 flex-1"
           >
             <div v-if="field.type === 'array'" class="flex flex-col gap-4 w-full">
-              <span class="text-xs font-semibold text-text-placeholder uppercase tracking-wider">{{
-                field.label
-              }}</span>
+              <span class="text-xs font-semibold text-text-placeholder uppercase tracking-wider">
+                {{ field.label }}
+              </span>
 
               <ul class="flex flex-col gap-1 w-auto flex-1">
                 <li
@@ -83,7 +96,7 @@
                   :key="idx"
                   class="text-sm text-text-regular flex items-start gap-2"
                 >
-                  <span class="text-primary mt-1 text-xs">•</span>
+                  <span class="text-text-placeholder mt-1 text-xs">•</span>
                   {{ item }}
                 </li>
               </ul>
@@ -91,12 +104,12 @@
 
             <template v-else>
               <div class="flex justify-between gap-4">
-                <span
-                  class="text-xs font-semibold text-text-placeholder uppercase tracking-wider"
-                >{{ field.label }}</span>
-                <span class="text-sm text-text-regular font-medium">{{
-                  getHeroValue(hero, field)
-                }}</span>
+                <span class="text-xs font-semibold text-text-placeholder uppercase tracking-wider">
+                  {{ field.label }}
+                </span>
+                <span class="text-sm text-text-regular font-medium">
+                  {{ getHeroValue(hero, field) }}
+                </span>
               </div>
             </template>
           </div>
