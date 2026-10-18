@@ -1,6 +1,7 @@
 <script lang="ts" setup>
   import type { Hero } from '@/types/hero.ts'
   import { Icon } from '@iconify/vue'
+  import { useFavoriteStore } from '@/stores/favorite.ts'
 
   defineProps<{
     hero: Hero
@@ -132,6 +133,8 @@
 
     return value
   }
+
+  const { isFavorite, toggleFavorite } = useFavoriteStore()
 </script>
 
 <template>
@@ -151,25 +154,39 @@
     />
 
     <div class="flex flex-col">
-      <h2 class="text-xl font-600 text-text-title leading-none flex gap-1 flex-wrap items-center">
-        {{ hero.name }}
+      <div class="flex justify-between">
+        <h2 class="text-xl font-600 text-text-title leading-none flex gap-1 flex-wrap items-center">
+          {{ hero.name }}
+
+          <Icon
+            v-tippy="{ content: `Пол: ${hero.gender}` }"
+            :class="[
+              'text-md',
+              { 'text-blue-300': hero.gender === 'Мужчина' },
+              { 'text-pink-300': hero.gender === 'Женщина' },
+            ]"
+            :icon="getIconGender(hero.gender)"
+          />
+
+          <Icon
+            v-if="hero.causeOfDeath"
+            v-tippy="{ content: `Причина смерти: ${hero.causeOfDeath}` }"
+            icon="material-symbols:skull-outline"
+          />
+        </h2>
 
         <Icon
-          v-tippy="{ content: `Пол: ${hero.gender}` }"
           :class="[
-            'text-md',
-            { 'text-blue-300': hero.gender === 'Мужчина' },
-            { 'text-pink-300': hero.gender === 'Женщина' },
+            'text-md cursor-pointer! transition-colors',
+            isFavorite(hero.id) ? 'text-red-300' : 'text-text-placeholder',
           ]"
-          :icon="getIconGender(hero.gender)"
+          :icon="
+            isFavorite(hero.id) ? 'material-symbols:favorite' : 'material-symbols:favorite-outline'
+          "
+          @click.prevent.stop="toggleFavorite(hero)"
         />
-
-        <Icon
-          v-if="hero.causeOfDeath"
-          v-tippy="{ content: `Причина смерти: ${hero.causeOfDeath}` }"
-          icon="material-symbols:skull-outline"
-        />
-      </h2>
+        {{ isFavorite(hero.id) }}
+      </div>
 
       <span class="text-sm text-text-regular">
         {{ hero.realName }}
