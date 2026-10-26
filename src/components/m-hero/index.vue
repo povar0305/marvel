@@ -19,7 +19,7 @@
   })
 
   const getColSpanClass = (span: number): string => {
-    const classes = {
+    const classes: Record<number, string> = {
       1: '2xl:col-span-1',
       2: '2xl:col-span-2',
       3: '2xl:col-span-3',
@@ -35,7 +35,6 @@
 
 <template>
   <div class="flex flex-col gap-6">
-    <!-- Шапка профиля (полностью нейтральная) -->
     <div class="flex flex-col gap-2 p-4">
       <div class="flex gap-4 items-center">
         <h1 class="text-3xl font-bold text-text-title">
@@ -54,14 +53,12 @@
         />
       </div>
 
-      <!-- Единственный акцент: тонкая цветная линия под именем героя -->
       <div
         class="h-1 w-24 rounded-full"
         :style="{ backgroundColor: hero.colorScheme?.primary || '#3b82f6' }"
       />
     </div>
 
-    <!-- Сетка карточек (все иконки и текст строго нейтральные) -->
     <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-6 gap-7 w-full mx-auto p-4">
       <div
         v-for="section in visibleSections"
@@ -72,7 +69,6 @@
         ]"
       >
         <h3 class="text-lg font-bold flex items-center gap-4 text-text-title">
-          <!-- Иконки снова стали стандартными (text-text-placeholder или text-primary) -->
           <Icon :icon="section.icon" class="text-xl text-text-placeholder" />
           {{ section.title }}
         </h3>
