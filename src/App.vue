@@ -15,7 +15,9 @@
   <m-header />
 
   <div class="mt-4 p-4 pb-20">
-    <router-view />
+    <error-boundary>
+      <router-view />
+    </error-boundary>
   </div>
 
   <m-bottom-menu />
