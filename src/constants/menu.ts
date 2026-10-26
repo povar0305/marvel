@@ -47,4 +47,9 @@ export const MENU: RouteRecordRaw[] = [
       title: 'Hero',
     },
   },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'not-found',
+    component: () => import('@/pages/404.vue'),
+  },
 ]

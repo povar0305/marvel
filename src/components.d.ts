@@ -21,6 +21,7 @@ declare module 'vue' {
     ElRate: typeof import('element-plus/es')['ElRate']
     ElSelect: typeof import('element-plus/es')['ElSelect']
     ElSwitch: typeof import('element-plus/es')['ElSwitch']
+    ErrorBoundary: typeof import('./components/ErrorBoundary.vue')['default']
     MBottomMenu: typeof import('./components/m-bottom-menu/index.vue')['default']
     MCardHero: typeof import('./components/m-card-hero/index.vue')['default']
     MFooter: typeof import('./components/m-footer/index.vue')['default']
