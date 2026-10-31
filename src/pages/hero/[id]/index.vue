@@ -2,6 +2,7 @@
   import { useHeroesStore } from '@/stores/heroes.ts'
   import { useRoute } from 'vue-router'
   import { computed, onMounted } from 'vue'
+  import SkeletonHero from '@/components/m-skeleton-hero/index.vue'
 
   const route = useRoute()
   const heroesStore = useHeroesStore()
@@ -23,8 +24,9 @@
       <m-hero :hero="hero" />
     </div>
 
-    <!-- Если героя с таким ID нет -->
-    <div v-else class="text-center py-10 text-red-500">
+    <SkeletonHero v-else-if="heroesStore.is_loading" />
+
+    <div v-else-if="heroesStore.is_loaded" class="text-center py-10 text-red-500">
       Герой не найден
     </div>
   </div>

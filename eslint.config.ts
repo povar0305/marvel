@@ -27,6 +27,17 @@ export default tseslint.config(
           jsx: true,
         },
       },
+      globals: {
+        window: 'readonly',
+        document: 'readonly',
+        localStorage: 'readonly',
+        sessionStorage: 'readonly',
+        console: 'readonly',
+        setTimeout: 'readonly',
+        clearTimeout: 'readonly',
+        setInterval: 'readonly',
+        clearInterval: 'readonly',
+      },
     },
   },
 
@@ -101,6 +112,9 @@ export default tseslint.config(
 
       // Предпочитаем const
       'prefer-const': 'error',
+
+      // Разрешаем однословные имена компонентов (index.vue и т.п.)
+      'vue/multi-word-component-names': 'off',
     },
   },
 

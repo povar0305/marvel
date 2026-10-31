@@ -27,6 +27,10 @@ declare module 'vue' {
     MFooter: typeof import('./components/m-footer/index.vue')['default']
     MHeader: typeof import('./components/m-header/index.vue')['default']
     MHero: typeof import('./components/m-hero/index.vue')['default']
+    MSkeleton: typeof import('./components/m-skeleton/index.vue')['default']
+    MSkeletonCardHero: typeof import('./components/m-skeleton-card-hero/index.vue')['default']
+    MSkeletonFilters: typeof import('./components/m-skeleton-filters/index.vue')['default']
+    MSkeletonHero: typeof import('./components/m-skeleton-hero/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
